@@ -1,14 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="piu_tools.Views.Unlockable"
+             x:Class="piu_tools.Views.UnlockableCharts"
              Title="{Binding Title}">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <SearchBar Text="{Binding SearchText, Mode=TwoWay}" HorizontalOptions="FillAndExpand" />
 
-            <ListView ItemsSource="{Binding MusicsResult}">
+            <ListView ItemsSource="{Binding MusicsList}" SelectedItem="{Binding SelectedMusic, Mode=TwoWay}"
+                      HasUnevenRows="True" Margin="10, 0" SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <!--<StackLayout>
+                                        <ffImage:CachedImage Source="{Binding poster_path}" Aspect="AspectFit" RetryCount="3" RetryDelay="3"/>
+                                    </StackLayout>-->
+                                    <StackLayout>
+                                        <StackLayout Orientation="Horizontal" Spacing="5">
+                                            <Label Text="{Binding SongTitle}" TextColor="Black" FontSize="15" />
+                                        </StackLayout>
 
+                                     </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
 
         </StackLayout>

@@ -1,4 +1,4 @@
-[
+
     {
         "Version": "1.0",
         "Musics": [
@@ -8,7 +8,6 @@
                 "Song_Artist": "Pory",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D13 SS"
@@ -21,19 +20,16 @@
                 "Song_Artist": "SLAM",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S16 A, 1950 S20 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "Random / Play it with someone who has this, 1950 S23 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D26",
                         "Require": "Clear 50 mission zone quests or Clear Ignis Fatuus D27 mission"
@@ -45,7 +41,6 @@
                 "Song_Artist": "DASU",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "All charts",
                         "Require": "Acquire SSS 86 times"
@@ -57,19 +52,16 @@
                 "Song_Artist": "DASU",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S16",
                         "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
@@ -82,13 +74,11 @@
                 "Song_Artist": "DM Ashura",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "Allegro Piu Mosso S19 PASS (with at least A), Allegro con Fuoco S22 PASS (with at least A), Allegro Furioso S20 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "Allegro Piu Mosso D19 PASS (with at least A), Allegro con Fuoco D23 PASS (with at least A), Allegro Furioso D20 PASS (with at least A)"
@@ -101,13 +91,11 @@
                 "Song_Artist": "Momoland",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S15",
                         "Require": "At least S13 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least S on S15 & D15"
@@ -119,13 +107,11 @@
                 "Song_Artist": "Turbo",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D16 A"
@@ -137,31 +123,26 @@
                 "Song_Artist": "Zeron",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S12",
                         "Require": "AM.Pass level 10"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "AM.Pass level 12"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "AM.Pass level 16"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D15",
                         "Require": "AM.Pass level 18"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D15 SS"
@@ -173,31 +154,26 @@
                 "Song_Artist": "Wanna One",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "AM.Pass Login"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D16",
                         "Require": "D7 SSS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least S on S17 & D16"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "CO-OP X 2",
                         "Require": "Play (and pass) co-op charts ~50 times (idk the number yet)"
@@ -209,19 +185,16 @@
                 "Song_Artist": "HAON, PULLIK",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S16",
                         "Require": "At least A on The Little Prince S16"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D12",
                         "Require": "At least A on The Little Prince D11"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least A on The Little Prince D19"
@@ -234,13 +207,11 @@
                 "Song_Artist": "Radetzky",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "Advanced Lv. 2 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "AM.Pass level 40"
@@ -252,13 +223,11 @@
                 "Song_Artist": "Sr. Lan Belmont",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "At least S on Radetzky Can Can S16"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "At least S on Radetzky Can Can D17"
@@ -270,37 +239,31 @@
                 "Song_Artist": "Sr. Lan Belmont",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D15",
                         "Require": "Get >800k points on D13"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D17",
                         "Require": "Get >800k points on D15"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "Get >800k points on D17"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "Get >800k points on D19"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "Get >1.8 million points on D21"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "Get >1.8 million points on D23"
@@ -312,25 +275,21 @@
                 "Song_Artist": "StaticSphere & FUGU SUISAN",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S18 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least D13 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D20 A"
@@ -342,37 +301,31 @@
                 "Song_Artist": "Matduke",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "At least S18 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D12",
                         "Require": "At least D12 A on Loki"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D12 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "Advanced Lv. 3 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "CO-OP",
                         "Require": "[CO-OP] Intermediate Title"
@@ -384,13 +337,11 @@
                 "Song_Artist": "siromaru, Cranky",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "At least S19 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D24",
                         "Require": "At least D21 S"
@@ -402,25 +353,21 @@
                 "Song_Artist": "HyuN feat. Syepias",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S17 A, At least Cross Over S18 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "At least S20 A, At least Cross Over S22 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least D18 A, At least Cross Over D19 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D24",
                         "Require": "At least D20 A, At least Cross Over D23 A"
@@ -433,13 +380,11 @@
                 "Song_Artist": "Lunatic Sounds",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "Advanced Lv. 10 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D26",
                         "Require": "Expert Lv. 3 Title"
@@ -451,19 +396,16 @@
                 "Song_Artist": "Applesoda vs Max",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "AM.Pass level 100"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "AM.Pass level 100"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "AM.Pass level 100"
@@ -475,7 +417,6 @@
                 "Song_Artist": "Crash",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D26",
                         "Require": "At least D24 S"
@@ -489,25 +430,21 @@
                 "Song_Artist": "D_AAN",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S on S10 & S15 and S19 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S24",
                         "Require": "At least S21 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "At least D12 and D17 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "At least D21 S"
@@ -519,13 +456,11 @@
                 "Song_Artist": "Jehezukiel",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S16 S, S18 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D11 SSS, D18 A"
@@ -537,13 +472,11 @@
                 "Song_Artist": "Dreamcatcher",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S15 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D16 A"
@@ -555,13 +488,11 @@
                 "Song_Artist": "WyvernP",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S13 S, S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least S D14, D17 A"
@@ -573,19 +504,16 @@
                 "Song_Artist": "Dreamcatcher",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S16 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "At least S20 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D24",
                         "Require": "At least D20 S"
@@ -598,13 +526,11 @@
                 "Song_Artist": "SUNMI",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S14 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "S18 and D15 PASS (with at least A)"
@@ -616,37 +542,31 @@
                 "Song_Artist": "Hong Jin Young",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S10",
                         "Require": "At least S10 A on Boomerang"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "AM.Pass Login"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D16",
                         "Require": "At least D10 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least S17 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "Clear 48 mission zone quests"
@@ -659,7 +579,6 @@
                 "Song_Artist": "(G)I-Dle",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S16",
                         "Require": "AM.Pass Login"
@@ -671,25 +590,21 @@
                 "Song_Artist": "nato",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least A on S11, S14 & S17"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "At least S17 S, S21 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D13 & D18 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "At least D22 A"
@@ -701,7 +616,6 @@
                 "Song_Artist": "BanYa",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "Clear 32 mission zone quests"
@@ -714,19 +628,16 @@
                 "Song_Artist": "Max",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D17",
                         "Require": "At least D13 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "Advanced Lv. 4 Title"
@@ -738,19 +649,16 @@
                 "Song_Artist": "A-Pink",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S15 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least S on S15, At least S on D16, At least S on S17, At least S on D18"
@@ -762,13 +670,11 @@
                 "Song_Artist": "Fiverwater",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S17 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "At least D17 S"
@@ -780,31 +686,26 @@
                 "Song_Artist": "SHK",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S12",
                         "Require": "AM.Pass level 20"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S15",
                         "Require": "AM.Pass level 22"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "AM.Pass level 24"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D16",
                         "Require": "AM.Pass level 26"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "AM.Pass level 28"
@@ -817,7 +718,6 @@
                 "Song_Artist": "BanYa",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "Clear 16 mission zone quests"
@@ -830,31 +730,26 @@
                 "Song_Artist": "Garlic Squad",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "AM.Pass level 30"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "AM.Pass level 32"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "AM.Pass level 34"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D16",
                         "Require": "AM.Pass level 36"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "AM.Pass level 38"
@@ -866,13 +761,11 @@
                 "Song_Artist": "Norazo",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S18 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "At least D19 S"
@@ -885,13 +778,11 @@
                 "Song_Artist": "Kien",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S17 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D19 A"
@@ -903,37 +794,31 @@
                 "Song_Artist": "Lotze",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S12",
                         "Require": "AM.Pass level 40"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S16",
                         "Require": "AM.Pass level 42"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "AM.Pass level 44"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Clear 8 mission zone quests"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D12",
                         "Require": "AM.Pass level 46"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "AM.Pass level 48"
@@ -945,13 +830,11 @@
                 "Song_Artist": "iKON",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D14",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 S"
@@ -964,7 +847,6 @@
                 "Song_Artist": "HyuN",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D13 SS"
@@ -976,13 +858,11 @@
                 "Song_Artist": "Paul Bazooka",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Mad5cience S20 PASS (with at least A), Meteorize S17 PASS (with at least A), Meteo5cience S18 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "Mad5cience D16 PASS (with at least A), Meteorize D18 PASS (with at least A), Meteo5cience D19 PASS (with at least A)"
@@ -994,7 +874,6 @@
                 "Song_Artist": "Affinity",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Clear 40 mission zone quests"
@@ -1007,7 +886,6 @@
                 "Song_Artist": "Produce 48",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S15 A"
@@ -1019,19 +897,16 @@
                 "Song_Artist": "Nato",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least A on Love is a Danger Zone pt.2 [Another] S16"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least A on Love is a Danger Zone pt.2 [Another] S17"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "At least S on Love is a Danger Zone pt.2 [Another] S16 and S17"
@@ -1043,37 +918,31 @@
                 "Song_Artist": "Nato",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "Advanced Lv. 8 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "Advanced Lv. 1 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "Advanced Lv. 9 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D24",
                         "Require": "Expert Lv. 1 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "Expert Lv. 2 Title"
@@ -1086,25 +955,21 @@
                 "Song_Artist": "ESTi x M2U",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S15",
                         "Require": "At least S10 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S15 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D15",
                         "Require": "At least D11 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D17",
                         "Require": "At least D15 A"
@@ -1116,19 +981,16 @@
                 "Song_Artist": "ATAS",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D15",
                         "Require": "At least D10 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D15 S"
@@ -1140,25 +1002,21 @@
                 "Song_Artist": "DM Ashura",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "At least S16 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S19 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "At least D18 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "At least D21 A"
@@ -1171,13 +1029,11 @@
                 "Song_Artist": "Yakikaze & Cashew",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S15 S, S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "At least D16 S, D18 A"
@@ -1189,13 +1045,11 @@
                 "Song_Artist": "Quree",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "At least S10 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "At least D16 SS"
@@ -1207,19 +1061,16 @@
                 "Song_Artist": "Cashew",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S15 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S23",
                         "Require": "At least S21 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D26",
                         "Require": "Get >14 million points on DP24? (Unlocked with 15.3 million points)"
@@ -1233,13 +1084,11 @@
                 "Song_Artist": "MAX",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D17 A"
@@ -1251,13 +1100,11 @@
                 "Song_Artist": "M2U",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S15 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D17 A"
@@ -1270,43 +1117,36 @@
                 "Song_Artist": "Doin",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S12",
                         "Require": "AM.Pass level 50"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "AM.Pass level 55"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S22",
                         "Require": "AM.Pass level 60"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S24",
                         "Require": "AM.Pass level 65"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D14",
                         "Require": "AM.Pass level 70"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "AM.Pass level 75"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "AM.Pass level 80"
@@ -1318,13 +1158,11 @@
                 "Song_Artist": "MAMAMOO",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S16",
                         "Require": "S01 SSS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D17",
                         "Require": "S01 SSS"
@@ -1336,7 +1174,6 @@
                 "Song_Artist": "SHK",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "Clear 24 mission zone quests"
@@ -1349,13 +1186,11 @@
                 "Song_Artist": "Applesoda",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S19",
                         "Require": "At least S16 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "At least D17 S"
@@ -1367,13 +1202,11 @@
                 "Song_Artist": "Memme",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S20",
                         "Require": "At least S17 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D23",
                         "Require": "At least D20 S"
@@ -1385,13 +1218,11 @@
                 "Song_Artist": "HAON, PULLIK",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least A on Boong Boong S18"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D16",
                         "Require": "At least A on Boong Boong D16"
@@ -1403,13 +1234,11 @@
                 "Song_Artist": "GFRIEND",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "At least S16 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D21",
                         "Require": "At least D18 A"
@@ -1421,13 +1250,11 @@
                 "Song_Artist": "HIGHTEEN",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S15 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D16 A"
@@ -1441,19 +1268,16 @@
                 "Song_Artist": "Applesoda",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S12 S"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D12 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "Advanced Lv. 6 Title"
@@ -1465,25 +1289,21 @@
                 "Song_Artist": "Seventeen",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S14",
                         "Require": "AM.Pass Login"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S17",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D15",
                         "Require": "At least S14 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D18",
                         "Require": "At least D15 S"
@@ -1496,31 +1316,26 @@
                 "Song_Artist": "SHK",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S18",
                         "Require": "AM.Pass Login"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "At least S18 A"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D19",
                         "Require": "At least D13 SS"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "Advanced Lv. 5 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "CO-OP X 3",
                         "Require": "Play (and pass) co-op charts 30 times"
@@ -1533,25 +1348,21 @@
                 "Song_Artist": "FE",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Random / Play it with someone who has this"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S24",
                         "Require": "Random / Play it with someone who has this"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D22",
                         "Require": "Advanced Lv. 7 Title"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "Random / Play it with someone who has this"
@@ -1564,19 +1375,16 @@
                 "Song_Artist": "Dreamcatcher",
                 "Charts": [
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "S21",
                         "Require": "Chase me S20 PASS (with at least A), Good Night S20 PASS (with at least A), Fly High S18 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D20",
                         "Require": "Chase me D18 PASS (with at least A), Good Night D19 PASS (with at least A), Fly High D19 PASS (with at least A)"
                     },
                     {
-                        "TitleImage": "",
                         "Done": "False",
                         "Level": "D25",
                         "Require": "Chase me D23 PASS (with at least A), Good Night D24 PASS (with at least A)"
@@ -1586,4 +1394,3 @@
             // -- Z --
         ]
     }
-]

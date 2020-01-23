@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
+using System.Reflection;
+using Newtonsoft.Json;
 using piu_tools.Models;
 
 namespace piu_tools.Services
@@ -10,18 +14,23 @@ namespace piu_tools.Services
         {
         }
 
-        public static MusicInfo GetSongListFromJson()
+        public static ObservableCollection<MusicInfo> GetSongListFromJson()
         {
+            UnlockableChartsList charts;
 
-            using (StreamReader r = new StreamReader(@"/Resources/Json/unlock_songs.json"))
+            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(JSONHandler)).Assembly;
+            Stream stream = assembly.GetManifestResourceStream("piu_tools.unlock_songs.json");
+
+            using (StreamReader sr = new StreamReader(stream))
             {
-                string json = r.ReadToEnd();
+                var json = sr.ReadToEnd();
 
-                var teste = Newtonsoft.Json.JsonConvert.DeserializeObject<UnlockableChartsList>(json);
+                JsonSerializer serializer = new JsonSerializer();
+               charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);
+                
             }
 
-
-            return new MusicInfo();
+            return new ObservableCollection<MusicInfo>(charts.Musics);
         }
     }
 }

@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace piu_tools.Views
 {
-    public partial class Unlockable : ContentPage
+    public partial class UnlockableCharts : ContentPage
     {
-        public Unlockable()
+        public UnlockableCharts()
         {
             InitializeComponent();
             BindingContext = new UnlockableChartsViewModel();

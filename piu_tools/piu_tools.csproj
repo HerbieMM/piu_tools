@@ -10,4 +10,13 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\LoadResourceText.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="unlock_songs.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="unlock_songs.json" />
+  </ItemGroup>
 </Project>

@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("piu_tools.Views.Unlockable.xaml", "Views/Unlockable.xaml", typeof(global::piu_tools.Views.Unlockable))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("piu_tools.Views.Unlockable.xaml", "Views/Unlockable.xaml", typeof(global::piu_tools.Views.UnlockableCharts))]
 
 namespace piu_tools.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/Unlockable.xaml")]
-    public partial class Unlockable : global::Xamarin.Forms.ContentPage {
+    public partial class UnlockableCharts : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Unlockable));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UnlockableCharts));
         }
     }
 }

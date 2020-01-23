@@ -24,7 +24,9 @@ namespace piu_tools
                 DependencyService.Register<MockDataStore>();
             else
                 DependencyService.Register<AzureDataStore>();
-            MainPage = new Unlockable();
+
+
+            MainPage = new UnlockableCharts();            
         }
 
         protected override void OnStart()
