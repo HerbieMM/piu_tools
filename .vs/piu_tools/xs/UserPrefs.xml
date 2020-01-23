@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/ViewModels/UnlockableChartsViewModel.cs">
+    <Files>
+      <File FileName="piu_tools/Views/Unlockable.xaml" Line="8" Column="32" />
+      <File FileName="piu_tools/Views/Unlockable.xaml.cs" />
+      <File FileName="piu_tools/ViewModels/AboutViewModel.cs" />
+      <File FileName="piu_tools/Services/JSONHandler.cs" />
+      <File FileName="piu_tools/ViewModels/UnlockableChartsViewModel.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="piu_tools" expanded="True">
+            <Node name="piu_tools" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="UnlockableChartsViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="UnlockableCharts.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="piu_tools.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Json" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.piu__tools.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e37766e64b39dd6d1306cd1a2d6a830741df2595" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.piu__tools.MobileAppService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.phone_m-dpi_5_1_oreo_8_1_api_27" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="18" column="1" />
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableChartsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableChartsViewModel.cs" line="21" column="47" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="multiprojId" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{053DF95F-8852-4451-BD33-6726B0E2717D}" ItemName="piu_tools.Android" />
+        <StartupItem ItemId="{4404C561-820A-48A8-8003-83127A5746A1}" ItemName="piu_tools.iOS" />
+        <StartupItem ItemId="{F1DCB369-26F3-4B83-B806-40621475593C}" ItemName="piu_tools.MobileAppService" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

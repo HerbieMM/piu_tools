@@ -1,0 +1,16 @@
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/piu_tools.MobileAppService.deps.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/piu_tools.MobileAppService.runtimeconfig.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/piu_tools.MobileAppService.runtimeconfig.dev.json
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/piu_tools.MobileAppService.dll
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/bin/Debug/netcoreapp2.1/piu_tools.MobileAppService.pdb
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.csprojAssemblyReference.cache
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.RazorAssemblyInfo.cache
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.RazorAssemblyInfo.cs
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.AssemblyInfoInputs.cache
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.AssemblyInfo.cs
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.RazorTargetAssemblyInfo.cache
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.dll
+/Users/Herberth/Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.pdb
