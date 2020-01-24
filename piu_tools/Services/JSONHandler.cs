@@ -9,9 +9,6 @@ namespace piu_tools.Services
 {
     public class JSONHandler
     {
-        public JSONHandler()
-        {}
-
         public static ObservableCollection<MusicInfo> GetSongListFromJson()
         {
             UnlockableChartsList charts;

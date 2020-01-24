@@ -20,10 +20,10 @@ namespace piu_tools
         {
             InitializeComponent();
 
-            if (UseMockDataStore)
-                DependencyService.Register<MockDataStore>();
-            else
-                DependencyService.Register<AzureDataStore>();
+            //if (UseMockDataStore)
+            //    DependencyService.Register<MockDataStore>();
+            //else
+            //    DependencyService.Register<AzureDataStore>();
 
 
             MainPage = new UnlockableCharts();            

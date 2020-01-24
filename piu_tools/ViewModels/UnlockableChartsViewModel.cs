@@ -3,14 +3,22 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using piu_tools.Models;
 using piu_tools.Services;
+using piu_tools.Views;
+using Xamarin.Forms;
 
 namespace piu_tools.ViewModels
 {
     public class UnlockableChartsViewModel : BaseViewModel
-    {        
+    {
+        private string title;
         public string Title
         {
-            get { return "Charts Desbloqueáveis"; }
+            get { return title; }
+            set
+            {
+                title = value;
+                OnPropertyChanged();
+            }
         }
         
         private ObservableCollection<MusicInfo> defaultMusicsList;
@@ -43,6 +51,8 @@ namespace piu_tools.ViewModels
             set {
                 selectedMusic = value;
                 OnPropertyChanged();
+
+                GoToSongInfo(value);
             }
         }
 
@@ -73,7 +83,14 @@ namespace piu_tools.ViewModels
         
         public UnlockableChartsViewModel()
         {
+            Title = "Songs";
+
+            Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Aguarde...");
+
             GetSongs();
+
+            Acr.UserDialogs.UserDialogs.Instance.HideLoading();
+
         }
 
         private void GetSongs()
@@ -82,6 +99,12 @@ namespace piu_tools.ViewModels
 
             DefaultMusicsList = musics;
             MusicsList = musics;
+        }
+
+        private async void GoToSongInfo(MusicInfo selectedMusic)
+        {
+            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));
+            
         }
     }
 }
