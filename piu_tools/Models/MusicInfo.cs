@@ -8,7 +8,7 @@ namespace piu_tools.Models
     {
         public string SongTitle { get; set; }
         public string SongArtist { get; set; }
-        public ObservableCollection<Chart> Charts { get; set; }
+        //public ObservableCollection<Chart> Charts { get; set; }
 
         public MusicInfo()
         {}

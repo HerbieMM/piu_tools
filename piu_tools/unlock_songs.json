@@ -4,8 +4,8 @@
         "Musics": [
             // -- Special characters --
             {
-                "Song_Title": "%X",
-                "Song_Artist": "Pory",
+                "SongTitle": "%X",
+                "SongArtist": "Pory",
                 "Charts": [
                     {
                         "Done": "False",
@@ -16,8 +16,8 @@
             },
             // -- 0~9 --
             {
-                "Song_Title": "1949",
-                "Song_Artist": "SLAM",
+                "SongTitle": "1949",
+                "SongArtist": "SLAM",
                 "Charts": [
                     {
                         "Done": "False",
@@ -37,8 +37,8 @@
                 ]
             },
             {
-                "Song_Title": "86",
-                "Song_Artist": "DASU",
+                "SongTitle": "86",
+                "SongArtist": "DASU",
                 "Charts": [
                     {
                         "Done": "False",
@@ -48,8 +48,8 @@
                 ]
             },
             {
-                "Song_Title": "86 (Full Song)",
-                "Song_Artist": "DASU",
+                "SongTitle": "86 (Full Song)",
+                "SongArtist": "DASU",
                 "Charts": [
                     {
                         "Done": "False",
@@ -70,8 +70,8 @@
             },
             // -- A --        
             {
-                "Song_Title": "Allegro Con Fuoco (Full Song)",
-                "Song_Artist": "DM Ashura",
+                "SongTitle": "Allegro Con Fuoco (Full Song)",
+                "SongArtist": "DM Ashura",
                 "Charts": [
                     {
                         "Done": "False",
@@ -87,8 +87,8 @@
             },
             // -- B --
             {
-                "Song_Title": "BBoom BBoom",
-                "Song_Artist": "Momoland",
+                "SongTitle": "BBoom BBoom",
+                "SongArtist": "Momoland",
                 "Charts": [
                     {
                         "Done": "False",
@@ -103,8 +103,8 @@
                 ]
             },
             {
-                "Song_Title": "Black Cat",
-                "Song_Artist": "Turbo",
+                "SongTitle": "Black Cat",
+                "SongArtist": "Turbo",
                 "Charts": [
                     {
                         "Done": "False",
@@ -119,8 +119,8 @@
                 ]
             },
             {
-                "Song_Title": "Black Swan",
-                "Song_Artist": "Zeron",
+                "SongTitle": "Black Swan",
+                "SongArtist": "Zeron",
                 "Charts": [
                     {
                         "Done": "False",
@@ -150,8 +150,8 @@
                 ]
             },
             {
-                "Song_Title": "Boomerang",
-                "Song_Artist": "Wanna One",
+                "SongTitle": "Boomerang",
+                "SongArtist": "Wanna One",
                 "Charts": [
                     {
                         "Done": "False",
@@ -181,8 +181,8 @@
                 ]
             },
             {
-                "Song_Title": "Boong Boong (Feat. Sik-K)",
-                "Song_Artist": "HAON, PULLIK",
+                "SongTitle": "Boong Boong (Feat. Sik-K)",
+                "SongArtist": "HAON, PULLIK",
                 "Charts": [
                     {
                         "Done": "False",
@@ -203,8 +203,8 @@
             },
             // -- C --
             {
-                "Song_Title": "Can Can",
-                "Song_Artist": "Radetzky",
+                "SongTitle": "Can Can",
+                "SongArtist": "Radetzky",
                 "Charts": [
                     {
                         "Done": "False",
@@ -219,8 +219,8 @@
                 ]
             },
             {
-                "Song_Title": "Can Can ~Orpheus in The Party Mix~",
-                "Song_Artist": "Sr. Lan Belmont",
+                "SongTitle": "Can Can ~Orpheus in The Party Mix~",
+                "SongArtist": "Sr. Lan Belmont",
                 "Charts": [
                     {
                         "Done": "False",
@@ -235,8 +235,8 @@
                 ]
             },
             {
-                "Song_Title": "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
-                "Song_Artist": "Sr. Lan Belmont",
+                "SongTitle": "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
+                "SongArtist": "Sr. Lan Belmont",
                 "Charts": [
                     {
                         "Done": "False",
@@ -271,8 +271,8 @@
                 ]
             },
             {
-                "Song_Title": "Carmen Bus",
-                "Song_Artist": "StaticSphere & FUGU SUISAN",
+                "SongTitle": "Carmen Bus",
+                "SongArtist": "StaticSphere & FUGU SUISAN",
                 "Charts": [
                     {
                         "Done": "False",
@@ -297,8 +297,8 @@
                 ]
             },
             {
-                "Song_Title": "Club Night",
-                "Song_Artist": "Matduke",
+                "SongTitle": "Club Night",
+                "SongArtist": "Matduke",
                 "Charts": [
                     {
                         "Done": "False",
@@ -333,8 +333,8 @@
                 ]
             },
             {
-                "Song_Title": "Conflict",
-                "Song_Artist": "siromaru, Cranky",
+                "SongTitle": "Conflict",
+                "SongArtist": "siromaru, Cranky",
                 "Charts": [
                     {
                         "Done": "False",
@@ -349,8 +349,8 @@
                 ]
             },
             {
-                "Song_Title": "CROSS SOUL",
-                "Song_Artist": "HyuN feat. Syepias",
+                "SongTitle": "CROSS SOUL",
+                "SongArtist": "HyuN feat. Syepias",
                 "Charts": [
                     {
                         "Done": "False",
@@ -376,8 +376,8 @@
             },
             // -- D --
             {
-                "Song_Title": "Dement ~After Legend~",
-                "Song_Artist": "Lunatic Sounds",
+                "SongTitle": "Dement ~After Legend~",
+                "SongArtist": "Lunatic Sounds",
                 "Charts": [
                     {
                         "Done": "False",
@@ -392,8 +392,8 @@
                 ]
             },
             {
-                "Song_Title": "Desaparecer",
-                "Song_Artist": "Applesoda vs Max",
+                "SongTitle": "Desaparecer",
+                "SongArtist": "Applesoda vs Max",
                 "Charts": [
                     {
                         "Done": "False",
@@ -413,8 +413,8 @@
                 ]
             },
             {
-                "Song_Title": "Dignity",
-                "Song_Artist": "Crash",
+                "SongTitle": "Dignity",
+                "SongArtist": "Crash",
                 "Charts": [
                     {
                         "Done": "False",
@@ -426,8 +426,8 @@
             // -- E --
             // -- F --
             {
-                "Song_Title": "F(R)IEND",
-                "Song_Artist": "D_AAN",
+                "SongTitle": "F(R)IEND",
+                "SongArtist": "D_AAN",
                 "Charts": [
                     {
                         "Done": "False",
@@ -452,8 +452,8 @@
                 ]
             },
             {
-                "Song_Title": "Fires of Destiny",
-                "Song_Artist": "Jehezukiel",
+                "SongTitle": "Fires of Destiny",
+                "SongArtist": "Jehezukiel",
                 "Charts": [
                     {
                         "Done": "False",
@@ -468,8 +468,8 @@
                 ]
             },
             {
-                "Song_Title": "Fly High",
-                "Song_Artist": "Dreamcatcher",
+                "SongTitle": "Fly High",
+                "SongArtist": "Dreamcatcher",
                 "Charts": [
                     {
                         "Done": "False",
@@ -484,8 +484,8 @@
                 ]
             },
             {
-                "Song_Title": "Forgotten Vampire",
-                "Song_Artist": "WyvernP",
+                "SongTitle": "Forgotten Vampire",
+                "SongArtist": "WyvernP",
                 "Charts": [
                     {
                         "Done": "False",
@@ -500,8 +500,8 @@
                 ]
             },
             {
-                "Song_Title": "Full Moon",
-                "Song_Artist": "Dreamcatcher",
+                "SongTitle": "Full Moon",
+                "SongArtist": "Dreamcatcher",
                 "Charts": [
                     {
                         "Done": "False",
@@ -522,8 +522,8 @@
             },
             // -- G --
             {
-                "Song_Title": "Gashina",
-                "Song_Artist": "SUNMI",
+                "SongTitle": "Gashina",
+                "SongArtist": "SUNMI",
                 "Charts": [
                     {
                         "Done": "False",
@@ -538,8 +538,8 @@
                 ]
             },
             {
-                "Song_Title": "Good Bye",
-                "Song_Artist": "Hong Jin Young",
+                "SongTitle": "Good Bye",
+                "SongArtist": "Hong Jin Young",
                 "Charts": [
                     {
                         "Done": "False",
@@ -575,8 +575,8 @@
             },
             // -- H --
             {
-                "Song_Title": "Hann(Alone)",
-                "Song_Artist": "(G)I-Dle",
+                "SongTitle": "Hann(Alone)",
+                "SongArtist": "(G)I-Dle",
                 "Charts": [
                     {
                         "Done": "False",
@@ -586,8 +586,8 @@
                 ]
             },
             {
-                "Song_Title": "HEART RABBIT COASTER",
-                "Song_Artist": "nato",
+                "SongTitle": "HEART RABBIT COASTER",
+                "SongArtist": "nato",
                 "Charts": [
                     {
                         "Done": "False",
@@ -612,8 +612,8 @@
                 ]
             },
             {
-                "Song_Title": "Higgledy Piggledy",
-                "Song_Artist": "BanYa",
+                "SongTitle": "Higgledy Piggledy",
+                "SongArtist": "BanYa",
                 "Charts": [
                     {
                         "Done": "False",
@@ -624,8 +624,8 @@
             },
             // -- I --
             {
-                "Song_Title": "I Want U",
-                "Song_Artist": "Max",
+                "SongTitle": "I Want U",
+                "SongArtist": "Max",
                 "Charts": [
                     {
                         "Done": "False",
@@ -645,8 +645,8 @@
                 ]
             },
             {
-                "Song_Title": "I'm so Sick",
-                "Song_Artist": "A-Pink",
+                "SongTitle": "I'm so Sick",
+                "SongArtist": "A-Pink",
                 "Charts": [
                     {
                         "Done": "False",
@@ -666,8 +666,8 @@
                 ]
             },
             {
-                "Song_Title": "Ice of Death",
-                "Song_Artist": "Fiverwater",
+                "SongTitle": "Ice of Death",
+                "SongArtist": "Fiverwater",
                 "Charts": [
                     {
                         "Done": "False",
@@ -682,8 +682,8 @@
                 ]
             },
             {
-                "Song_Title": "Imagination",
-                "Song_Artist": "SHK",
+                "SongTitle": "Imagination",
+                "SongArtist": "SHK",
                 "Charts": [
                     {
                         "Done": "False",
@@ -714,8 +714,8 @@
             },
             // -- J --
             {
-                "Song_Title": "Jump",
-                "Song_Artist": "BanYa",
+                "SongTitle": "Jump",
+                "SongArtist": "BanYa",
                 "Charts": [
                     {
                         "Done": "False",
@@ -726,8 +726,8 @@
             },
             // -- K --
             {
-                "Song_Title": "Kimchi Fingers",
-                "Song_Artist": "Garlic Squad",
+                "SongTitle": "Kimchi Fingers",
+                "SongArtist": "Garlic Squad",
                 "Charts": [
                     {
                         "Done": "False",
@@ -757,8 +757,8 @@
                 ]
             },
             {
-                "Song_Title": "King of Sales",
-                "Song_Artist": "Norazo",
+                "SongTitle": "King of Sales",
+                "SongArtist": "Norazo",
                 "Charts": [
                     {
                         "Done": "False",
@@ -774,8 +774,8 @@
             },
             // -- L --
             {
-                "Song_Title": "Le Grand Rouge",
-                "Song_Artist": "Kien",
+                "SongTitle": "Le Grand Rouge",
+                "SongArtist": "Kien",
                 "Charts": [
                     {
                         "Done": "False",
@@ -790,8 +790,8 @@
                 ]
             },
             {
-                "Song_Title": "Loki",
-                "Song_Artist": "Lotze",
+                "SongTitle": "Loki",
+                "SongArtist": "Lotze",
                 "Charts": [
                     {
                         "Done": "False",
@@ -826,8 +826,8 @@
                 ]
             },
             {
-                "Song_Title": "Love Scenario",
-                "Song_Artist": "iKON",
+                "SongTitle": "Love Scenario",
+                "SongArtist": "iKON",
                 "Charts": [
                     {
                         "Done": "False",
@@ -843,8 +843,8 @@
             },
             // -- M --
             {
-                "Song_Title": "Macaron Day",
-                "Song_Artist": "HyuN",
+                "SongTitle": "Macaron Day",
+                "SongArtist": "HyuN",
                 "Charts": [
                     {
                         "Done": "False",
@@ -854,8 +854,8 @@
                 ]
             },
             {
-                "Song_Title": "Meteo5cience",
-                "Song_Artist": "Paul Bazooka",
+                "SongTitle": "Meteo5cience",
+                "SongArtist": "Paul Bazooka",
                 "Charts": [
                     {
                         "Done": "False",
@@ -870,8 +870,8 @@
                 ]
             },
             {
-                "Song_Title": "Monolith",
-                "Song_Artist": "Affinity",
+                "SongTitle": "Monolith",
+                "SongArtist": "Affinity",
                 "Charts": [
                     {
                         "Done": "False",
@@ -882,8 +882,8 @@
             },
             // -- N --
             {
-                "Song_Title": "Nekkoya(Pick Me)",
-                "Song_Artist": "Produce 48",
+                "SongTitle": "Nekkoya(Pick Me)",
+                "SongArtist": "Produce 48",
                 "Charts": [
                     {
                         "Done": "False",
@@ -893,8 +893,8 @@
                 ]
             },
             {
-                "Song_Title": "Nihilism - Another Ver.-",
-                "Song_Artist": "Nato",
+                "SongTitle": "Nihilism - Another Ver.-",
+                "SongArtist": "Nato",
                 "Charts": [
                     {
                         "Done": "False",
@@ -914,8 +914,8 @@
                 ]
             },
             {
-                "Song_Title": "Nyarlathotep",
-                "Song_Artist": "Nato",
+                "SongTitle": "Nyarlathotep",
+                "SongArtist": "Nato",
                 "Charts": [
                     {
                         "Done": "False",
@@ -951,8 +951,8 @@
             },
             // -- O --
             {
-                "Song_Title": "Obelisque",
-                "Song_Artist": "ESTi x M2U",
+                "SongTitle": "Obelisque",
+                "SongArtist": "ESTi x M2U",
                 "Charts": [
                     {
                         "Done": "False",
@@ -977,8 +977,8 @@
                 ]
             },
             {
-                "Song_Title": "Obliteration",
-                "Song_Artist": "ATAS",
+                "SongTitle": "Obliteration",
+                "SongArtist": "ATAS",
                 "Charts": [
                     {
                         "Done": "False",
@@ -998,8 +998,8 @@
                 ]
             },
             {
-                "Song_Title": "Orbit Stabilizer",
-                "Song_Artist": "DM Ashura",
+                "SongTitle": "Orbit Stabilizer",
+                "SongArtist": "DM Ashura",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1025,8 +1025,8 @@
             },
             // -- P --
             {
-                "Song_Title": "Papasito - feat. KuTiNa",
-                "Song_Artist": "Yakikaze & Cashew",
+                "SongTitle": "Papasito - feat. KuTiNa",
+                "SongArtist": "Yakikaze & Cashew",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1041,8 +1041,8 @@
                 ]
             },
             {
-                "Song_Title": "Poseidon",
-                "Song_Artist": "Quree",
+                "SongTitle": "Poseidon",
+                "SongArtist": "Quree",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1057,8 +1057,8 @@
                 ]
             },
             {
-                "Song_Title": "Prime Time (Remix)",
-                "Song_Artist": "Cashew",
+                "SongTitle": "Prime Time (Remix)",
+                "SongArtist": "Cashew",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1080,8 +1080,8 @@
             // -- Q --
             // -- R --
             {
-                "Song_Title": "Rage of Fire",
-                "Song_Artist": "MAX",
+                "SongTitle": "Rage of Fire",
+                "SongArtist": "MAX",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1096,8 +1096,8 @@
                 ]
             },
             {
-                "Song_Title": "Rising Star",
-                "Song_Artist": "M2U",
+                "SongTitle": "Rising Star",
+                "SongArtist": "M2U",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1113,8 +1113,8 @@
             },
             // -- S --
             {
-                "Song_Title": "Skeptic",
-                "Song_Artist": "Doin",
+                "SongTitle": "Skeptic",
+                "SongArtist": "Doin",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1154,8 +1154,8 @@
                 ]
             },
             {
-                "Song_Title": "Starry Night",
-                "Song_Artist": "MAMAMOO",
+                "SongTitle": "Starry Night",
+                "SongArtist": "MAMAMOO",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1170,8 +1170,8 @@
                 ]
             },
             {
-                "Song_Title": "Super Fantasy",
-                "Song_Artist": "SHK",
+                "SongTitle": "Super Fantasy",
+                "SongArtist": "SHK",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1182,8 +1182,8 @@
             },
             // -- T --
             {
-                "Song_Title": "Tales of Pumpnia",
-                "Song_Artist": "Applesoda",
+                "SongTitle": "Tales of Pumpnia",
+                "SongArtist": "Applesoda",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1198,8 +1198,8 @@
                 ]
             },
             {
-                "Song_Title": "Tantanmen",
-                "Song_Artist": "Memme",
+                "SongTitle": "Tantanmen",
+                "SongArtist": "Memme",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1214,8 +1214,8 @@
                 ]
             },
             {
-                "Song_Title": "The Little Prince (Prod. Godic)",
-                "Song_Artist": "HAON, PULLIK",
+                "SongTitle": "The Little Prince (Prod. Godic)",
+                "SongArtist": "HAON, PULLIK",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1230,8 +1230,8 @@
                 ]
             },
             {
-                "Song_Title": "Time for the moon night",
-                "Song_Artist": "GFRIEND",
+                "SongTitle": "Time for the moon night",
+                "SongArtist": "GFRIEND",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1246,8 +1246,8 @@
                 ]
             },
             {
-                "Song_Title": "Timing",
-                "Song_Artist": "HIGHTEEN",
+                "SongTitle": "Timing",
+                "SongArtist": "HIGHTEEN",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1264,8 +1264,8 @@
             // -- U --
             // -- V --
             {
-                "Song_Title": "Vanish",
-                "Song_Artist": "Applesoda",
+                "SongTitle": "Vanish",
+                "SongArtist": "Applesoda",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1285,8 +1285,8 @@
                 ]
             },
             {
-                "Song_Title": "Very Nice!",
-                "Song_Artist": "Seventeen",
+                "SongTitle": "Very Nice!",
+                "SongArtist": "Seventeen",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1312,8 +1312,8 @@
             },
             // -- W -- 
             {
-                "Song_Title": "Wedding Crasher",
-                "Song_Artist": "SHK",
+                "SongTitle": "Wedding Crasher",
+                "SongArtist": "SHK",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1344,8 +1344,8 @@
             },
             // -- X -- 
             {
-                "Song_Title": "Xeroize",
-                "Song_Artist": "FE",
+                "SongTitle": "Xeroize",
+                "SongArtist": "FE",
                 "Charts": [
                     {
                         "Done": "False",
@@ -1371,8 +1371,8 @@
             },
             // -- Y -- 
             {
-                "Song_Title": "YOU AND I",
-                "Song_Artist": "Dreamcatcher",
+                "SongTitle": "YOU AND I",
+                "SongArtist": "Dreamcatcher",
                 "Charts": [
                     {
                         "Done": "False",

@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/ViewModels/UnlockableChartsViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/App.xaml.cs">
     <Files>
-      <File FileName="piu_tools/Views/Unlockable.xaml" Line="22" Column="95" />
-      <File FileName="piu_tools/Services/JSONHandler.cs" Line="29" Column="1" />
-      <File FileName="piu_tools/ViewModels/UnlockableChartsViewModel.cs" Line="48" Column="22" />
-      <File FileName="piu_tools/Models/MusicInfo.cs" Line="9" Column="32" />
+      <File FileName="piu_tools/App.xaml.cs" Line="29" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,14 +9,7 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="piu_tools" expanded="True">
             <Node name="piu_tools" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="UnlockableChartsViewModel.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="UnlockableCharts.xaml" expanded="True" />
-              </Node>
+              <Node name="Views" expanded="True" selected="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
@@ -33,11 +23,7 @@
   <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.d114ca7a" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="18" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableChartsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableChartsViewModel.cs" line="54" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="29" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="multiprojId" Name="Multiple Projects">

@@ -12,10 +12,18 @@ namespace piu_tools.ViewModels
         {
             get { return "Charts Desbloqueáveis"; }
         }
-
-        private MusicInfo musicApi;
-        private ObservableCollection<MusicInfo> DefaultMusicInfo;
-
+        
+        private ObservableCollection<MusicInfo> defaultMusicsList;
+        public ObservableCollection<MusicInfo> DefaultMusicsList
+        {
+            get { return defaultMusicsList; }
+            set
+            {
+                defaultMusicsList = value;
+                OnPropertyChanged();
+            }
+        }
+        
         public ObservableCollection<MusicInfo> musicsList { get; set; }
         public ObservableCollection<MusicInfo> MusicsList
         {
@@ -27,28 +35,7 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-        
-        private string searchText { get; set; }
-        public string SearchText {
-            get {
-                return searchText;
-            }
-            set {
-                searchText = value;
-                OnPropertyChanged();
-
-                if (searchText.Count() > 0) {
-                    var list = MusicsList.Where(c => c.SongTitle.ToLower().Contains(searchText.ToLower())).ToList();
-
-                    MusicsList = new ObservableCollection<MusicInfo>(list);
-                }
-                else
-                {
-                    MusicsList = DefaultMusicInfo;
-                }
-            }
-        }
-
+               
         private MusicInfo selectedMusic;
         public MusicInfo SelectedMusic
         {
@@ -59,9 +46,33 @@ namespace piu_tools.ViewModels
             }
         }
 
-        public UnlockableChartsViewModel()
-        {            
+        private string searchText { get; set; }
+        public string SearchText
+        {
+            get
+            {
+                return searchText;
+            }
+            set
+            {
+                searchText = value;
+                OnPropertyChanged();
 
+                if (searchText.Count() > 0)
+                {
+                    var list = MusicsList.Where(c => c.SongTitle.ToLower().Contains(searchText.ToLower())).ToList();
+
+                    MusicsList = new ObservableCollection<MusicInfo>(list);
+                }
+                else
+                {
+                    MusicsList = DefaultMusicsList;
+                }
+            }
+        }
+        
+        public UnlockableChartsViewModel()
+        {
             GetSongs();
         }
 
@@ -69,7 +80,7 @@ namespace piu_tools.ViewModels
         {
             var musics = JSONHandler.GetSongListFromJson();
 
-            DefaultMusicInfo = musics;
+            DefaultMusicsList = musics;
             MusicsList = musics;
         }
     }

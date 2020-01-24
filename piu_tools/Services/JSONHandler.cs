@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Reflection;
@@ -11,8 +10,7 @@ namespace piu_tools.Services
     public class JSONHandler
     {
         public JSONHandler()
-        {
-        }
+        {}
 
         public static ObservableCollection<MusicInfo> GetSongListFromJson()
         {
@@ -26,10 +24,9 @@ namespace piu_tools.Services
                 var json = sr.ReadToEnd();
 
                 JsonSerializer serializer = new JsonSerializer();
-               charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);
-                
+                charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);                
             }
-
+            
             return new ObservableCollection<MusicInfo>(charts.Musics);
         }
     }
