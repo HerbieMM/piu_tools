@@ -26,7 +26,7 @@ namespace piu_tools
             //    DependencyService.Register<AzureDataStore>();
 
 
-            MainPage = new UnlockableCharts();            
+            MainPage = new NavigationPage(new UnlockableCharts());
         }
 
         protected override void OnStart()

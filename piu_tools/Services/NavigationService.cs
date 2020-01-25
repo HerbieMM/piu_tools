@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace piu_tools.Services
 {
-    public class NavigationService
+    public static class NavigationService
     {
         static INavigation Navigation => Application.Current.MainPage.Navigation;
         

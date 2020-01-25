@@ -10,6 +10,8 @@ namespace piu_tools.ViewModels
 {
     public class UnlockableChartsViewModel : BaseViewModel
     {
+        #region [ Properties ]
+
         private string title;
         public string Title
         {
@@ -32,7 +34,7 @@ namespace piu_tools.ViewModels
             }
         }
         
-        public ObservableCollection<MusicInfo> musicsList { get; set; }
+        private ObservableCollection<MusicInfo> musicsList { get; set; }
         public ObservableCollection<MusicInfo> MusicsList
         {
             get {
@@ -81,9 +83,11 @@ namespace piu_tools.ViewModels
             }
         }
         
+        #endregion
+        
         public UnlockableChartsViewModel()
         {
-            Title = "Songs";
+            Title = "Unlockable Charts";
 
             Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Aguarde...");
 
@@ -103,8 +107,7 @@ namespace piu_tools.ViewModels
 
         private async void GoToSongInfo(MusicInfo selectedMusic)
         {
-            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));
-            
+            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));            
         }
     }
 }
