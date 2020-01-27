@@ -15,7 +15,6 @@ namespace piu_tools.ViewModels
         private ObservableCollection<Chart> singlesList;
         private ObservableCollection<Chart> coopsList;
         private ObservableCollection<Chart> doublesList;
-
         public MusicInfo SelectedMusic
         {
             get { return selectedMusic; }
@@ -25,7 +24,6 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public string SongBanner
         {
             get { return songBanner; }
@@ -35,7 +33,6 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public ObservableCollection<Chart> SinglesList
         {
             get { return singlesList; }
@@ -45,7 +42,6 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public ObservableCollection<Chart> DoublesList
         {
             get { return doublesList; }
@@ -55,7 +51,6 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public ObservableCollection<Chart> CoopsList
         {
             get { return coopsList; }
@@ -66,12 +61,10 @@ namespace piu_tools.ViewModels
             }
         }
 
-
         #endregion
 
         public UnlockableSongDetailsViewModel()
         { }
-
         public UnlockableSongDetailsViewModel(MusicInfo selectedMusic)
         {
             Title = selectedMusic.SongTitle;

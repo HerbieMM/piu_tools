@@ -30,3 +30,19 @@
 /Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.RazorTargetAssemblyInfo.cache
 /Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.dll
 /Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/obj/Debug/netcoreapp2.1/piu_tools.MobileAppService.pdb
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\piu_tools.MobileAppService.deps.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\piu_tools.MobileAppService.runtimeconfig.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\piu_tools.MobileAppService.runtimeconfig.dev.json
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\piu_tools.MobileAppService.dll
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\bin\Debug\netcoreapp2.1\piu_tools.MobileAppService.pdb
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.csprojAssemblyReference.cache
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.RazorAssemblyInfo.cache
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.RazorAssemblyInfo.cs
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.AssemblyInfoInputs.cache
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.AssemblyInfo.cs
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.RazorTargetAssemblyInfo.cache
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.dll
+C:\Projetos\Xamarin\piu_tools\piu_tools.MobileAppService\obj\Debug\netcoreapp2.1\piu_tools.MobileAppService.pdb

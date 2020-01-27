@@ -5295,7 +5295,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.1": {
-      "sha512": "1XHObHLx6A0/57ZmLG9gfKMO/Z/gQjRXPFWQDMlPZGYwcfgufvSdmI2+RYvR5DGkbba9HIHC35ClNQ2yVNIohw==",
+      "sha512": "f8PKGcxiezL1RVqmnmrazj24Mj4KCTSXqwdotl7Lc+82h8iLV7ItxEIShTJakG7M9iw0ZuCocM0J/IhYesdQrg==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.1",
       "hasTools": true,
@@ -11911,28 +11911,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/Herberth/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\herbe\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/piu_tools.MobileAppService.csproj",
+      "projectUniqueName": "C:\\Projetos\\Xamarin\\piu_tools\\piu_tools.MobileAppService\\piu_tools.MobileAppService.csproj",
       "projectName": "piu_tools.MobileAppService",
-      "projectPath": "/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/piu_tools.MobileAppService.csproj",
-      "packagesPath": "/Users/Herberth/.nuget/packages/",
-      "outputPath": "/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools.MobileAppService/obj/",
+      "projectPath": "C:\\Projetos\\Xamarin\\piu_tools\\piu_tools.MobileAppService\\piu_tools.MobileAppService.csproj",
+      "packagesPath": "C:\\Users\\herbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Xamarin\\piu_tools\\piu_tools.MobileAppService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Herberth/.config/NuGet/NuGet.Config"
+        "C:\\Users\\herbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11976,7 +11981,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

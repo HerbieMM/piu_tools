@@ -9,90 +9,108 @@
         <vm:UnlockableSongDetailsViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="10">            
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="5">
-                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <ffImage:CachedImage Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3"/>
-                    </StackLayout>
+        <StackLayout Orientation="Vertical" Padding="10">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="5">
+                <!--Song image-->
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <ffImage:CachedImage Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3"/>
+                </StackLayout>
+                <!--Song Artist-->
+                <StackLayout>
+                    <Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />
+                </StackLayout>
 
-                    <StackLayout>
-                        <Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />
-                    </StackLayout>
+                <!--Singles list-->
+                <StackLayout>
+                    <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="20"/>
+                    <ListView ItemsSource="{Binding SinglesList}" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <StackLayout>
+                                            <Label Text="{Binding Level}" />
+                                            <ListView ItemsSource="{Binding Require}">
+                                                <ListView.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <ViewCell>
+                                                            <StackLayout Orientation="Horizontal">
+                                                                <CheckBox IsChecked="{Binding Done}" />
+                                                                <Label Text="{Binding Description}" />
+                                                            </StackLayout>
+                                                        </ViewCell>
+                                                    </DataTemplate>
+                                                </ListView.ItemTemplate>
+                                            </ListView>
 
-                    <StackLayout BackgroundColor="Yellow">
-                        <Label Text="Singles" />
-                        <ListView ItemsSource="{Binding SinglesList}" HasUnevenRows="True">
-                           <ListView.ItemTemplate>
-                               <DataTemplate>
-                                   <ViewCell>
-                                       <ViewCell.View>
-                                            <StackLayout BackgroundColor="Aqua">
-                                                <StackLayout>
-                                                    <Label Text="{Binding Level}"/>
-                                                </StackLayout>
-                                                <StackLayout Orientation="Horizontal">
-                                                    <CheckBox IsChecked="{Binding Done}" />
-                                                    <Label Text="{Binding Require}" />
-                                                </StackLayout>
-                                           
-                                            </StackLayout>
-                                       </ViewCell.View>
-                                   </ViewCell>
-                               </DataTemplate>
-                           </ListView.ItemTemplate>
-                        </ListView>
-                    </StackLayout>
-                    
-                    <StackLayout>
-                        <Label Text="Doubles" />
-                        <ListView ItemsSource="{Binding DoublesList}" HasUnevenRows="True" >
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <ViewCell>
-                                        <ViewCell.View>
+                                        </StackLayout>
+                                    </ViewCell.View>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Doubles" />
+                    <ListView ItemsSource="{Binding DoublesList}" HasUnevenRows="True" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+
+                                    <StackLayout>
+
+                                        <StackLayout>
+                                            <Label Text="{Binding Level}"/>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+
+                                            <ListView ItemsSource="{Binding Require}" HasUnevenRows="True">
+                                                <ListView.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <ViewCell>
+                                                            <CheckBox IsChecked="{Binding Done}" />
+                                                            <Label Text="{Binding Description}" />
+                                                        </ViewCell>
+                                                    </DataTemplate>
+                                                </ListView.ItemTemplate>
+                                            </ListView>
+
+                                        </StackLayout>
+
+                                    </StackLayout>
+
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Co-Ops" />
+                    <ListView ItemsSource="{Binding CoopsList}" HasUnevenRows="True" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <StackLayout>
                                             <StackLayout>
-                                                
-                                                <StackLayout>
-                                                    <Label Text="{Binding Level}"/>
-                                                </StackLayout>
-                                                
-                                                <StackLayout Orientation="Horizontal">
-                                                    <CheckBox IsChecked="{Binding Done}" />
-                                                    <Label Text="{Binding Require}" />
-                                                </StackLayout>
-                                                
+                                                <Label Text="{Binding Level}"/>
                                             </StackLayout>
-                                        </ViewCell.View>
-                                    </ViewCell>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
-                    </StackLayout>
-                    <StackLayout>
-                        <Label Text="Co-Ops" />
-                            <ListView ItemsSource="{Binding CoopsList}" HasUnevenRows="True" >
-                                <ListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <ViewCell>
-                                            <ViewCell.View>
-                                                <StackLayout>
-                                                    <StackLayout>
-                                                        <Label Text="{Binding Level}"/>
-                                                    </StackLayout>
 
-                                                    <StackLayout Orientation="Vertical">
-                                                        <CheckBox IsChecked="{Binding Done}" />
-                                                        <Label Text="{Binding Require}" />
-                                                    </StackLayout>
-                                                    
-                                                </StackLayout>
-                                            </ViewCell.View>
-                                        </ViewCell>
-                                    </DataTemplate>
-                                </ListView.ItemTemplate>
-                            </ListView>
-                    </StackLayout>
-                </StackLayout>           
+                                            <StackLayout Orientation="Vertical">
+                                                <CheckBox IsChecked="{Binding Done}" />
+                                                <Label Text="{Binding Require}" />
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                    </ViewCell.View>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

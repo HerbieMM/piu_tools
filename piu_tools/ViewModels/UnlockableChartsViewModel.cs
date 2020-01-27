@@ -10,18 +10,7 @@ namespace piu_tools.ViewModels
 {
     public class UnlockableChartsViewModel : BaseViewModel
     {
-        #region [ Properties ]
-
-        private string title;
-        public string Title
-        {
-            get { return title; }
-            set
-            {
-                title = value;
-                OnPropertyChanged();
-            }
-        }
+        #region [ Properties ]           
         
         private ObservableCollection<MusicInfo> defaultMusicsList;
         public ObservableCollection<MusicInfo> DefaultMusicsList

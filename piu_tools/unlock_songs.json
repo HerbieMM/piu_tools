@@ -1,1462 +1,2578 @@
 {
-    "Version": "1.0",
-    "Musics": [
-        // -- Special characters --
-      {
-        "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-percent-x.png",
-        "SongTitle": "%X",
-        "SongArtist": "Pory",
-        "Charts": [
-          {
-            "Done": "False",
-            "Level": "D19",
-            "Require": "At least D13 SS"
-          }
-        ]
-      },
-        // -- 0~9 --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-1949.png",
-            "SongTitle": "1949",
-            "SongArtist": "SLAM",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S16 A, 1950 S20 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "Random / Play it with someone who has this, 1950 S23 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D26",
-                    "Require": "Clear 50 mission zone quests or Clear Ignis Fatuus D27 mission"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-86.png",
-            "SongTitle": "86",
-            "SongArtist": "DASU",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "All charts",
-                    "Require": "Acquire SSS 86 times"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-86-full-song.png",
-            "SongTitle": "86 (Full Song)",
-            "SongArtist": "DASU",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S16",
-                    "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "Nakakapagpabagabab PASS (with at least A), 86 stage PASS (with at least A)"
-                }
-            ]
-        },
-        // -- A --        
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-allegro-con-fuoco-full.png",
-            "SongTitle": "Allegro Con Fuoco (Full Song)",
-            "SongArtist": "DM Ashura",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "Allegro Piu Mosso S19 PASS (with at least A), Allegro con Fuoco S22 PASS (with at least A), Allegro Furioso S20 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "Allegro Piu Mosso D19 PASS (with at least A), Allegro con Fuoco D23 PASS (with at least A), Allegro Furioso D20 PASS (with at least A)"
-                }
-            ]
-        },
-        // -- B --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-bboom-bboom.png",
-            "SongTitle": "BBoom BBoom",
-            "SongArtist": "Momoland",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S15",
-                    "Require": "At least S13 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least S on S15 & D15"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1646.png",
-            "SongTitle": "Black Cat",
-            "SongArtist": "Turbo",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D16 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-black-swan.png",
-            "SongTitle": "Black Swan",
-            "SongArtist": "Zeron",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S12",
-                    "Require": "AM.Pass level 10"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "AM.Pass level 12"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "AM.Pass level 16"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D15",
-                    "Require": "AM.Pass level 18"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D15 SS"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-boomerang.png",
-            "SongTitle": "Boomerang",
-            "SongArtist": "Wanna One",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "AM.Pass Login"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D16",
-                    "Require": "D7 SSS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least S on S17 & D16"
-                },
-                {
-                    "Done": "False",
-                    "Level": "CO-OP X 2",
-                    "Require": "Play (and pass) co-op charts ~50 times (idk the number yet)"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-boong-boong.png",
-            "SongTitle": "Boong Boong (Feat. Sik-K)",
-            "SongArtist": "HAON, PULLIK",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S16",
-                    "Require": "At least A on The Little Prince S16"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D12",
-                    "Require": "At least A on The Little Prince D11"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least A on The Little Prince D19"
-                }
-            ]
-        },
-        // -- C --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/913-revive.png",
-            "SongTitle": "Can Can",
-            "SongArtist": "Radetzky",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "Advanced Lv. 2 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "AM.Pass level 40"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A0.png",
-            "SongTitle": "Can Can ~Orpheus in The Party Mix~",
-            "SongArtist": "Sr. Lan Belmont",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "At least S on Radetzky Can Can S16"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "At least S on Radetzky Can Can D17"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16F2.png",
-            "SongTitle": "Can-can ~Orpheus in The Party Mix~ (Short Cut)",
-            "SongArtist": "Sr. Lan Belmont",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D15",
-                    "Require": "Get >800k points on D13"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D17",
-                    "Require": "Get >800k points on D15"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "Get >800k points on D17"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "Get >800k points on D19"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "Get >1.8 million points on D21"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "Get >1.8 million points on D23"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1623.png",
-            "SongTitle": "Carmen Bus",
-            "SongArtist": "StaticSphere & FUGU SUISAN",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S18 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least D13 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D20 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-club-night.png",
-            "SongTitle": "Club Night",
-            "SongArtist": "Matduke",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "At least S18 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D12",
-                    "Require": "At least D12 A on Loki"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D12 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "Advanced Lv. 3 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "CO-OP",
-                    "Require": "[CO-OP] Intermediate Title"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1676.png",
-            "SongTitle": "Conflict",
-            "SongArtist": "siromaru, Cranky",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "At least S19 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D24",
-                    "Require": "At least D21 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1671.png",
-            "SongTitle": "CROSS SOUL",
-            "SongArtist": "HyuN feat. Syepias",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S17 A, At least Cross Over S18 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "At least S20 A, At least Cross Over S22 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least D18 A, At least Cross Over D19 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D24",
-                    "Require": "At least D20 A, At least Cross Over D23 A"
-                }
-            ]
-        },
-        // -- D --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-dement.png",
-            "SongTitle": "Dement ~After Legend~",
-            "SongArtist": "Lunatic Sounds",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "Advanced Lv. 10 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D26",
-                    "Require": "Expert Lv. 3 Title"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-desaparecer.png",
-            "SongTitle": "Desaparecer",
-            "SongArtist": "Applesoda vs Max",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "AM.Pass level 100"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "AM.Pass level 100"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "AM.Pass level 100"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/A08-xx.png",
-            "SongTitle": "Dignity",
-            "SongArtist": "Crash",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D26",
-                    "Require": "At least D24 S"
-                }
-            ]
-        },
-        // -- E --
-        // -- F --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1675.png",
-            "SongTitle": "F(R)IEND",
-            "SongArtist": "D_AAN",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S on S10 & S15 and S19 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S24",
-                    "Require": "At least S21 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "At least D12 and D17 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "At least D21 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A2.png",
-            "SongTitle": "Fires of Destiny",
-            "SongArtist": "Jehezukiel",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S16 S, S18 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D11 SSS, D18 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-fly-high.png",
-            "SongTitle": "Fly High",
-            "SongArtist": "Dreamcatcher",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S15 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least D16 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A4.png",
-            "SongTitle": "Forgotten Vampire",
-            "SongArtist": "WyvernP",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S13 S, S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least S D14, D17 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1643.png",
-            "SongTitle": "Full Moon",
-            "SongArtist": "Dreamcatcher",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S16 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "At least S20 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D24",
-                    "Require": "At least D20 S"
-                }
-            ]
-        },
-        // -- G --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-gashina.png",
-            "SongTitle": "Gashina",
-            "SongArtist": "SUNMI",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S14 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "S18 and D15 PASS (with at least A)"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-good-bye.png",
-            "SongTitle": "Good Bye",
-            "SongArtist": "Hong Jin Young",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S10",
-                    "Require": "At least S10 A on Boomerang"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "AM.Pass Login"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D16",
-                    "Require": "At least D10 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least S17 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "Clear 48 mission zone quests"
-                }
-            ]
-        },
-        // -- H --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-hann.png",
-            "SongTitle": "Hann (Alone)",
-            "SongArtist": "(G)I-Dle",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S16",
-                    "Require": "AM.Pass Login"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1616.png",
-            "SongTitle": "HEART RABBIT COASTER",
-            "SongArtist": "nato",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least A on S11, S14 & S17"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "At least S17 S, S21 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D13 & D18 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "At least D22 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/332.png",
-            "SongTitle": "Higgledy Piggledy",
-            "SongArtist": "BanYa",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "Clear 32 mission zone quests"
-                }
-            ]
-        },
-        // -- I --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-i-want-u.png",
-            "SongTitle": "I Want U",
-            "SongArtist": "Max",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D17",
-                    "Require": "At least D13 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "Advanced Lv. 4 Title"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-im-so-sick.png",
-            "SongTitle": "I'm so Sick",
-            "SongArtist": "A-Pink",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S15 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least S on S15, At least S on D16, At least S on S17, At least S on D18"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-ice-of-death.png",
-            "SongTitle": "Ice of Death",
-            "SongArtist": "Fiverwater",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S17 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "At least D17 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-imagination.png",
-            "SongTitle": "Imagination",
-            "SongArtist": "SHK",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S12",
-                    "Require": "AM.Pass level 20"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S15",
-                    "Require": "AM.Pass level 22"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "AM.Pass level 24"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D16",
-                    "Require": "AM.Pass level 26"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "AM.Pass level 28"
-                }
-            ]
-        },
-        // -- J --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/C07-revive.png",
-            "SongTitle": "Jump",
-            "SongArtist": "BanYa",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "Clear 16 mission zone quests"
-                }
-            ]
-        },
-        // -- K --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-kimchi-fingers.png",
-            "SongTitle": "Kimchi Fingers",
-            "SongArtist": "Garlic Squad",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "AM.Pass level 30"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "AM.Pass level 32"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "AM.Pass level 34"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D16",
-                    "Require": "AM.Pass level 36"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "AM.Pass level 38"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1665.png",
-            "SongTitle": "King of Sales",
-            "SongArtist": "Norazo",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S18 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "At least D19 S"
-                }
-            ]
-        },
-        // -- L --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-le-grand-rouge.png",
-            "SongTitle": "Le Grand Rouge",
-            "SongArtist": "Kien",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S17 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D19 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-loki.png",
-            "SongTitle": "Loki",
-            "SongArtist": "Lotze",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S12",
-                    "Require": "AM.Pass level 40"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S16",
-                    "Require": "AM.Pass level 42"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "AM.Pass level 44"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Clear 8 mission zone quests"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D12",
-                    "Require": "AM.Pass level 46"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "AM.Pass level 48"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-love-scenario.png",
-            "SongTitle": "Love Scenario",
-            "SongArtist": "iKON",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D14",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 S"
-                }
-            ]
-        },
-        // -- M --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-macaron-day.png",
-            "SongTitle": "Macaron Day",
-            "SongArtist": "HyuN",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D13 SS"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-meteo-science.png",
-            "SongTitle": "Meteo5cience",
-            "SongArtist": "Paul Bazooka",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Mad5cience S20 PASS (with at least A), Meteorize S17 PASS (with at least A), Meteo5cience S18 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "Mad5cience D16 PASS (with at least A), Meteorize D18 PASS (with at least A), Meteo5cience D19 PASS (with at least A)"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/123.png",
-            "SongTitle": "Monolith",
-            "SongArtist": "Affinity",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Clear 40 mission zone quests"
-                }
-            ]
-        },
-        // -- N --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nekkoya.png",
-            "SongTitle": "Nekkoya (Pick Me)",
-            "SongArtist": "Produce 48",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S15 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nihilism.png",
-            "SongTitle": "Nihilism - Another Ver.-",
-            "SongArtist": "Nato",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least A on Love is a Danger Zone pt.2 [Another] S16"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least A on Love is a Danger Zone pt.2 [Another] S17"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "At least S on Love is a Danger Zone pt.2 [Another] S16 and S17"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nyarlathotep.png",
-            "SongTitle": "Nyarlathotep",
-            "SongArtist": "Nato",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "Advanced Lv. 8 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "Advanced Lv. 1 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "Advanced Lv. 9 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D24",
-                    "Require": "Expert Lv. 1 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "Expert Lv. 2 Title"
-                }
-            ]
-        },
-        // -- O --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-obelisque.png",
-            "SongTitle": "Obelisque",
-            "SongArtist": "ESTi x M2U",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S15",
-                    "Require": "At least S10 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S15 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D15",
-                    "Require": "At least D11 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D17",
-                    "Require": "At least D15 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-obliteration.png",
-            "SongTitle": "Obliteration",
-            "SongArtist": "ATAS",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D15",
-                    "Require": "At least D10 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least D15 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1631.png",
-            "SongTitle": "Orbit Stabilizer",
-            "SongArtist": "DM Ashura",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "At least S16 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S19 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "At least D18 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "At least D21 A"
-                }
-            ]
-        },
-        // -- P --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A1.png",
-            "SongTitle": "Papasito feat. KuTiNa",
-            "SongArtist": "Yakikaze & Cashew",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S15 S, S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "At least D16 S, D18 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-poseidon.png",
-            "SongTitle": "Poseidon",
-            "SongArtist": "Quree",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "At least S10 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "At least D16 SS"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16D4.png",
-            "SongTitle": "Prime Time (Remix)",
-            "SongArtist": "Cashew",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S15 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S23",
-                    "Require": "At least S21 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D26",
-                    "Require": "Get >14 million points on DP24? (Unlocked with 15.3 million points)"
-                }
-            ]
-        },
-        // -- Q --
-        // -- R --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-rage-of-fire.png",
-            "SongTitle": "Rage of Fire",
-            "SongArtist": "MAX",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least D17 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1686.png",
-            "SongTitle": "Rising Star",
-            "SongArtist": "M2U",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S15 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least D17 A"
-                }
-            ]
-        },
-        // -- S --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-skeptic.png",
-            "SongTitle": "Skeptic",
-            "SongArtist": "Doin",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S12",
-                    "Require": "AM.Pass level 50"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "AM.Pass level 55"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S22",
-                    "Require": "AM.Pass level 60"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S24",
-                    "Require": "AM.Pass level 65"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D14",
-                    "Require": "AM.Pass level 70"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "AM.Pass level 75"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "AM.Pass level 80"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1658.png",
-            "SongTitle": "Starry Night",
-            "SongArtist": "MAMAMOO",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S16",
-                    "Require": "S01 SSS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D17",
-                    "Require": "S01 SSS"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/190.png",
-            "SongTitle": "Super Fantasy",
-            "SongArtist": "SHK",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "Clear 24 mission zone quests"
-                }
-            ]
-        },
-        // -- T --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1629.png",
-            "SongTitle": "Tales of Pumpnia",
-            "SongArtist": "Applesoda",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S19",
-                    "Require": "At least S16 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "At least D17 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1635.png",
-            "SongTitle": "Tantanmen",
-            "SongArtist": "Memme",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S20",
-                    "Require": "At least S17 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D23",
-                    "Require": "At least D20 S"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-the-little-prince.png",
-            "SongTitle": "The Little Prince (Prod. Godic)",
-            "SongArtist": "HAON, PULLIK",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least A on Boong Boong S18"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D16",
-                    "Require": "At least A on Boong Boong D16"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-time-for-the-moon-night.png",
-            "SongTitle": "Time for the moon night",
-            "SongArtist": "GFRIEND",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "At least S16 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D21",
-                    "Require": "At least D18 A"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-timing.png",
-            "SongTitle": "Timing",
-            "SongArtist": "HIGHTEEN",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S15 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D16 A"
-                }
-            ]
-        },
-        // -- U --
-        // -- V --
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-vanish.png",
-            "SongTitle": "Vanish",
-            "SongArtist": "Applesoda",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S12 S"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D12 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "Advanced Lv. 6 Title"
-                }
-            ]
-        },
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-very-nice.png",
-            "SongTitle": "Very Nice!",
-            "SongArtist": "Seventeen",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S14",
-                    "Require": "AM.Pass Login"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S17",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D15",
-                    "Require": "At least S14 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D18",
-                    "Require": "At least D15 S"
-                }
-            ]
-        },
-        // -- W -- 
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-wedding-crashers.png",
-            "SongTitle": "Wedding Crasher",
-            "SongArtist": "SHK",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S18",
-                    "Require": "AM.Pass Login"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "At least S18 A"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D19",
-                    "Require": "At least D13 SS"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "Advanced Lv. 5 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "CO-OP X 3",
-                    "Require": "Play (and pass) co-op charts 30 times"
-                }
-            ]
-        },
-        // -- X -- 
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-xeroize.png",
-            "SongTitle": "Xeroize",
-            "SongArtist": "FE",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Random / Play it with someone who has this"
-                },
-                {
-                    "Done": "False",
-                    "Level": "S24",
-                    "Require": "Random / Play it with someone who has this"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D22",
-                    "Require": "Advanced Lv. 7 Title"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "Random / Play it with someone who has this"
-                }
-            ]
-        },
-        // -- Y -- 
-        {
-            "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-you-and-i.png",
-            "SongTitle": "YOU AND I",
-            "SongArtist": "Dreamcatcher",
-            "Charts": [
-                {
-                    "Done": "False",
-                    "Level": "S21",
-                    "Require": "Chase me S20 PASS (with at least A), Good Night S20 PASS (with at least A), Fly High S18 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D20",
-                    "Require": "Chase me D18 PASS (with at least A), Good Night D19 PASS (with at least A), Fly High D19 PASS (with at least A)"
-                },
-                {
-                    "Done": "False",
-                    "Level": "D25",
-                    "Require": "Chase me D23 PASS (with at least A), Good Night D24 PASS (with at least A)"
-                }
-            ]
+  "Version": "1.3",
+  "Musics": [
+    // -- Special characters --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-percent-x.png",
+      "SongTitle": "%X",
+      "SongArtist": "Pory",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D13 SS"
+            }
+          ]
         }
-        // -- Z --
-    ]
+      ]
+    },
+    // -- 0~9 --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-1949.png",
+      "SongTitle": "1949",
+      "SongArtist": "SLAM",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            },
+            {
+              "Done": "False",
+              "Description": "1950 S20 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Random, or Play it with someone who has this"
+            },
+            {
+              "Done": "False",
+              "Description": "1950 S23 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D26",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 50 mission zone quests, or Clear Ignis Fatuus D27 mission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-86.png",
+      "SongTitle": "86",
+      "SongArtist": "DASU",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "All charts",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Acquire SSS 86 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-86-full-song.png",
+      "SongTitle": "86 (Full Song)",
+      "SongArtist": "DASU",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Nakakapagpabagabab PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "86 stage PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Nakakapagpabagabab PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "86 stage PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Nakakapagpabagabab PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "86 stage PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    },
+    // -- A --        
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-allegro-con-fuoco-full.png",
+      "SongTitle": "Allegro Con Fuoco (Full Song)",
+      "SongArtist": "DM Ashura",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Allegro Piu Mosso S19 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Allegro con Fuoco S22 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Allegro Furioso S20 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Allegro Piu Mosso D19 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Allegro con Fuoco D23 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Allegro Furioso D20 PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    },
+    // -- B --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-bboom-bboom.png",
+      "SongTitle": "BBoom BBoom",
+      "SongArtist": "Momoland",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S13 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S15 & D15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1646.png",
+      "SongTitle": "Black Cat",
+      "SongArtist": "Turbo",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D16 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-black-swan.png",
+      "SongTitle": "Black Swan",
+      "SongArtist": "Zeron",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 10"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 12"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 18"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D15 SS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-boomerang.png",
+      "SongTitle": "Boomerang",
+      "SongArtist": "Wanna One",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass Login"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "D7 SSS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S17 & D16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "CO-OP X 2",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Play (and pass) co-op charts ~50 times (idk the number yet)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-boong-boong.png",
+      "SongTitle": "Boong Boong (Feat. Sik-K)",
+      "SongArtist": "HAON, PULLIK",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on The Little Prince S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on The Little Prince D11"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on The Little Prince D19"
+            }
+          ]
+        }
+      ]
+    },
+    // -- C --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/913-revive.png",
+      "SongTitle": "Can Can",
+      "SongArtist": "Radetzky",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 2 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A0.png",
+      "SongTitle": "Can Can ~Orpheus in The Party Mix~",
+      "SongArtist": "Sr. Lan Belmont",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on Radetzky Can Can S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on Radetzky Can Can D17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16F2.png",
+      "SongTitle": "Can-can ~Orpheus in The Party Mix~ (Short Cut)",
+      "SongArtist": "Sr. Lan Belmont",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >800k points on D13"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >800k points on D15"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >800k points on D17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >800k points on D19"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >1.8 million points on D21"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >1.8 million points on D23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1623.png",
+      "SongTitle": "Carmen Bus",
+      "SongArtist": "StaticSphere & FUGU SUISAN",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S18 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D13 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D20 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-club-night.png",
+      "SongTitle": "Club Night",
+      "SongArtist": "Matduke",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S18 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D12 A on Loki"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D12 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 3 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "CO-OP",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "[CO-OP] Intermediate Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1676.png",
+      "SongTitle": "Conflict",
+      "SongArtist": "siromaru, Cranky",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S19 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D21 S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1671.png",
+      "SongTitle": "CROSS SOUL",
+      "SongArtist": "HyuN feat. Syepias",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S17 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Cross Over S18 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S20 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Cross Over S22 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D18 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Cross Over D19 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D20 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Cross Over D23 A}"
+            }
+          ]
+        }
+      ]
+    },
+    // -- D --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-dement.png",
+      "SongTitle": "Dement ~After Legend~",
+      "SongArtist": "Lunatic Sounds",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 10 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D26",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Expert Lv. 3 Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-desaparecer.png",
+      "SongTitle": "Desaparecer",
+      "SongArtist": "Applesoda vs Max",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 100"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 100"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/A08-xx.png",
+      "SongTitle": "Dignity",
+      "SongArtist": "Crash",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D26",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D24 S"
+            }
+          ]
+        }
+      ]
+    },
+    // -- E --
+    // -- F --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1675.png",
+      "SongTitle": "F(R)IEND",
+      "SongArtist": "D_AAN",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S10"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S15"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S19"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on S21"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D12"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S D17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A2.png",
+      "SongTitle": "Fires of Destiny",
+      "SongArtist": "Jehezukiel",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least A on S18"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D11 SSS"
+            },
+            {
+              "Done": "False",
+              "Description": "At least A onD18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-fly-high.png",
+      "SongTitle": "Fly High",
+      "SongArtist": "Dreamcatcher",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on S15"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on D16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A4.png",
+      "SongTitle": "Forgotten Vampire",
+      "SongArtist": "WyvernP",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S13"
+            },
+            {
+              "Done": "False",
+              "Description": "Atleast A on S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D14"
+            },
+            {
+              "Done": "False",
+              "Description": "Atleast A on D17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1643.png",
+      "SongTitle": "Full Moon",
+      "SongArtist": "Dreamcatcher",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S20 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D20 S"
+            }
+          ]
+        }
+      ]
+    },
+    // -- G --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-gashina.png",
+      "SongTitle": "Gashina",
+      "SongArtist": "SUNMI",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S18 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "D15 PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-good-bye.png",
+      "SongTitle": "Good Bye",
+      "SongArtist": "Hong Jin Young",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S10",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S10 A on Boomerang"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass Login"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D10 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S17 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 48 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    // -- H --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-hann.png",
+      "SongTitle": "Hann (Alone)",
+      "SongArtist": "(G)I-Dle",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass Login"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1616.png",
+      "SongTitle": "HEART RABBIT COASTER",
+      "SongArtist": "nato",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on S11"
+            },
+            {
+              "Done": "False",
+              "Description": "At Least A on S14"
+            },
+            {
+              "Done": "False",
+              "Description": "At Least A on S17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S17"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S21"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D13"
+            },
+            {
+              "Done": "False",
+              "Description": "At Least S on D18"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on D22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/332.png",
+      "SongTitle": "Higgledy Piggledy",
+      "SongArtist": "BanYa",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 32 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    // -- I --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-i-want-u.png",
+      "SongTitle": "I Want U",
+      "SongArtist": "Max",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D13 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 4 Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-im-so-sick.png",
+      "SongTitle": "I'm so Sick",
+      "SongArtist": "A-Pink",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S15"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S17"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on D16"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on D18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-ice-of-death.png",
+      "SongTitle": "Ice of Death",
+      "SongArtist": "Fiverwater",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S17 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D17 S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-imagination.png",
+      "SongTitle": "Imagination",
+      "SongArtist": "SHK",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 20"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 22"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 24"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 26"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 28"
+            }
+          ]
+        }
+      ]
+    },
+    // -- J --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/C07-revive.png",
+      "SongTitle": "Jump",
+      "SongArtist": "BanYa",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 16 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    // -- K --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-kimchi-fingers.png",
+      "SongTitle": "Kimchi Fingers",
+      "SongArtist": "Garlic Squad",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 30"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 32"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 34"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 36"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1665.png",
+      "SongTitle": "King of Sales",
+      "SongArtist": "Norazo",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S18 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D19 S"
+            }
+          ]
+        }
+      ]
+    },
+    // -- L --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-le-grand-rouge.png",
+      "SongTitle": "Le Grand Rouge",
+      "SongArtist": "Kien",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S17 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D19 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-loki.png",
+      "SongTitle": "Loki",
+      "SongArtist": "Lotze",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 40"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 42"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 44"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 8 mission zone quests"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 46"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-love-scenario.png",
+      "SongTitle": "Love Scenario",
+      "SongArtist": "iKON",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 S"
+            }
+          ]
+        }
+      ]
+    },
+    // -- M --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-macaron-day.png",
+      "SongTitle": "Macaron Day",
+      "SongArtist": "HyuN",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D13 SS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-meteo-science.png",
+      "SongTitle": "Meteo5cience",
+      "SongArtist": "Paul Bazooka",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Mad5cience S20 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Meteorize S17 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Meteo5cience S18 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Mad5cience D16 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Meteorize D18 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Meteo5cience D19 PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/123.png",
+      "SongTitle": "Monolith",
+      "SongArtist": "Affinity",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 40 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    // -- N --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nekkoya.png",
+      "SongTitle": "Nekkoya (Pick Me)",
+      "SongArtist": "Produce 48",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nihilism.png",
+      "SongTitle": "Nihilism - Another Ver.-",
+      "SongArtist": "Nato",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on Love is a Danger Zone pt.2 [Another] S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on Love is a Danger Zone pt.2 [Another] S17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on Love is a Danger Zone pt.2 [Another] S16 and S17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-nyarlathotep.png",
+      "SongTitle": "Nyarlathotep",
+      "SongArtist": "Nato",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 8 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 1 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 9 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Expert Lv. 1 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Expert Lv. 2 Title"
+            }
+          ]
+        }
+      ]
+    },
+    // -- O --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-obelisque.png",
+      "SongTitle": "Obelisque",
+      "SongArtist": "ESTi x M2U",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S10 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D11 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D15 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-obliteration.png",
+      "SongTitle": "Obliteration",
+      "SongArtist": "ATAS",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D10 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D15 S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1631.png",
+      "SongTitle": "Orbit Stabilizer",
+      "SongArtist": "DM Ashura",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S19 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D18 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D21 A"
+            }
+          ]
+        }
+      ]
+    },
+    // -- P --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16A1.png",
+      "SongTitle": "Papasito feat. KuTiNa",
+      "SongArtist": "Yakikaze & Cashew",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least A on S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D16 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least A on D18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-poseidon.png",
+      "SongTitle": "Poseidon",
+      "SongArtist": "Quree",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S10 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D16 SS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/16D4.png",
+      "SongTitle": "Prime Time (Remix)",
+      "SongArtist": "Cashew",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S21 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D26",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Get >14 million points on DP24? (Unlocked with 15.3 million points)"
+            }
+          ]
+        }
+      ]
+    },
+    // -- Q --
+    // -- R --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-rage-of-fire.png",
+      "SongTitle": "Rage of Fire",
+      "SongArtist": "MAX",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D17 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1686.png",
+      "SongTitle": "Rising Star",
+      "SongArtist": "M2U",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D17 A"
+            }
+          ]
+        }
+      ]
+    },
+    // -- S --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-skeptic.png",
+      "SongTitle": "Skeptic",
+      "SongArtist": "Doin",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S12",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 50"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 55"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 60"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 65"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 70"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 75"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass level 80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1658.png",
+      "SongTitle": "Starry Night",
+      "SongArtist": "MAMAMOO",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S01 SSS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S01 SSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/190.png",
+      "SongTitle": "Super Fantasy",
+      "SongArtist": "SHK",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Clear 24 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    // -- T --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1629.png",
+      "SongTitle": "Tales of Pumpnia",
+      "SongArtist": "Applesoda",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D17 S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1635.png",
+      "SongTitle": "Tantanmen",
+      "SongArtist": "Memme",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S17 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D20 S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-the-little-prince.png",
+      "SongTitle": "The Little Prince (Prod. Godic)",
+      "SongArtist": "HAON, PULLIK",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on Boong Boong S18"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on Boong Boong D16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-time-for-the-moon-night.png",
+      "SongTitle": "Time for the moon night",
+      "SongArtist": "GFRIEND",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D18 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-timing.png",
+      "SongTitle": "Timing",
+      "SongArtist": "HIGHTEEN",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S15 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D16 A"
+            }
+          ]
+        }
+      ]
+    },
+    // -- U --
+    // -- V --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-vanish.png",
+      "SongTitle": "Vanish",
+      "SongArtist": "Applesoda",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S12 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D12 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 6 Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-very-nice.png",
+      "SongTitle": "Very Nice!",
+      "SongArtist": "Seventeen",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S14",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass Login"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D15",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D15 S"
+            }
+          ]
+        }
+      ]
+    },
+    // -- W -- 
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-wedding-crashers.png",
+      "SongTitle": "Wedding Crasher",
+      "SongArtist": "SHK",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "AM.Pass Login"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S18 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D13 SS"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 5 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "CO-OP X 3",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Play (and pass) co-op charts 30 times"
+            }
+          ]
+        }
+      ]
+    },
+    // -- X -- 
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-xeroize.png",
+      "SongTitle": "Xeroize",
+      "SongArtist": "FE",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Random / Play it with someone who has this"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Random / Play it with someone who has this"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Advanced Lv. 7 Title"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Random / Play it with someone who has this"
+            }
+          ]
+        }
+      ]
+    },
+    // -- Y -- 
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-you-and-i.png",
+      "SongTitle": "YOU AND I",
+      "SongArtist": "Dreamcatcher",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Chase me S20 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Good Night S20 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Fly High S18 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Chase me D18 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Good Night D19 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Fly High D19 PASS (with at least A)"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D25",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "Chase me D23 PASS (with at least A)"
+            },
+            {
+              "Done": "False",
+              "Description": "Good Night D24 PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    }
+    // -- Z --
+  ]
 }
