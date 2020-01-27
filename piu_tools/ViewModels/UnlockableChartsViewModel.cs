@@ -96,6 +96,7 @@ namespace piu_tools.ViewModels
 
         private async void GoToSongInfo(MusicInfo selectedMusic)
         {
+
             await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));            
         }
     }

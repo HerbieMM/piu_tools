@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using piu_tools.Services;
 using piu_tools.Views;
+using piu_tools.Models;
 
 namespace piu_tools
 {
@@ -19,6 +20,9 @@ namespace piu_tools
         public App()
         {
             InitializeComponent();
+            
+            //TODO VER ISSO AQUI SEU IMBECIL
+            DependencyService.Register<IDataStore<MusicInfo>>();
 
             //if (UseMockDataStore)
             //    DependencyService.Register<MockDataStore>();

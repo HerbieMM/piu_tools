@@ -3,114 +3,109 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="piu_tools.Views.UnlockableSongDetails"
              xmlns:vm="clr-namespace:piu_tools.ViewModels"
+             xmlns:converters="clr-namespace:piu_tools.Converter"
              xmlns:ffImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <converters:ListCountBoolConverter x:Key="ListCountBoolConverter"/>
+    </ContentPage.Resources>
+
     <ContentPage.BindingContext>
         <vm:UnlockableSongDetailsViewModel />
     </ContentPage.BindingContext>
+
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="10">
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="5">
-                <!--Song image-->
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <ffImage:CachedImage Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3"/>
-                </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
+                <!--Song Image-->
+
+                <ffImage:CachedImage Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFit" RetryCount="3" RetryDelay="3" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"/>
+
+
                 <!--Song Artist-->
-                <StackLayout>
-                    <Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />
-                </StackLayout>
+
+                <Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />
+
 
                 <!--Singles list-->
                 <StackLayout>
-                    <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="20"/>
-                    <ListView ItemsSource="{Binding SinglesList}" HasUnevenRows="True">
-                        <ListView.ItemTemplate>
+                    <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" />
+
+                    <CollectionView ItemsSource="{Binding SinglesList}" >
+                        <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <ViewCell>
-                                    <ViewCell.View>
-                                        <StackLayout>
-                                            <Label Text="{Binding Level}" />
-                                            <ListView ItemsSource="{Binding Require}">
-                                                <ListView.ItemTemplate>
-                                                    <DataTemplate>
-                                                        <ViewCell>
-                                                            <StackLayout Orientation="Horizontal">
-                                                                <CheckBox IsChecked="{Binding Done}" />
-                                                                <Label Text="{Binding Description}" />
-                                                            </StackLayout>
-                                                        </ViewCell>
-                                                    </DataTemplate>
-                                                </ListView.ItemTemplate>
-                                            </ListView>
+                                <StackLayout>
+                                    <Label Text="{Binding Level}" FontSize="18"/>
 
-                                        </StackLayout>
-                                    </ViewCell.View>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackLayout>
-
-                <StackLayout>
-                    <Label Text="Doubles" />
-                    <ListView ItemsSource="{Binding DoublesList}" HasUnevenRows="True" >
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-
-                                    <StackLayout>
-
-                                        <StackLayout>
-                                            <Label Text="{Binding Level}"/>
-                                        </StackLayout>
-
-                                        <StackLayout Orientation="Horizontal">
-
-                                            <ListView ItemsSource="{Binding Require}" HasUnevenRows="True">
-                                                <ListView.ItemTemplate>
-                                                    <DataTemplate>
-                                                        <ViewCell>
-                                                            <CheckBox IsChecked="{Binding Done}" />
-                                                            <Label Text="{Binding Description}" />
-                                                        </ViewCell>
-                                                    </DataTemplate>
-                                                </ListView.ItemTemplate>
-                                            </ListView>
-
-                                        </StackLayout>
-
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackLayout Orientation="Horizontal" >
+                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
                                     </StackLayout>
-
-                                </ViewCell>
+                                </StackLayout>
                             </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
                 </StackLayout>
+
                 <StackLayout>
-                    <Label Text="Co-Ops" />
-                    <ListView ItemsSource="{Binding CoopsList}" HasUnevenRows="True" >
-                        <ListView.ItemTemplate>
+                    <!--IsVisible="{Binding CoopsList, Converter={StaticResource ListCountBoolConverter}, ConverterParameter={Binding DoublesList.Count}}"-->
+                    <Label Text="Doubles" HorizontalTextAlignment="Center" FontSize="20"/>
+
+                    <CollectionView ItemsSource="{Binding DoublesList}">
+                        <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <ViewCell>
-                                    <ViewCell.View>
-                                        <StackLayout>
-                                            <StackLayout>
-                                                <Label Text="{Binding Level}"/>
-                                            </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Level}" FontSize="18"/>
 
-                                            <StackLayout Orientation="Vertical">
-                                                <CheckBox IsChecked="{Binding Done}" />
-                                                <Label Text="{Binding Require}" />
-                                            </StackLayout>
-
-                                        </StackLayout>
-                                    </ViewCell.View>
-                                </ViewCell>
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackLayout Orientation="Horizontal" >
+                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </StackLayout>
+                                </StackLayout>
                             </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Co-Ops" HorizontalTextAlignment="Center" FontSize="20"/>
+
+                    <CollectionView ItemsSource="{Binding CoopsList}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Label Text="{Binding Level}" FontSize="18"/>
+
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackLayout Orientation="Horizontal" >
+                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </StackLayout>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
                 </StackLayout>
             </StackLayout>
-        </StackLayout>
+  
     </ContentPage.Content>
 </ContentPage>

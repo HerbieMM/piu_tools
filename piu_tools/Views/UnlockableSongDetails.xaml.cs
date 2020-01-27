@@ -13,5 +13,10 @@ namespace piu_tools.Views
             InitializeComponent();
             BindingContext = new UnlockableSongDetailsViewModel(selectedMusic);
         }
+
+        protected override void OnAppearing()
+        {
+            
+        }
     }
 }
