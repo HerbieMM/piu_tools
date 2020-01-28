@@ -8,7 +8,9 @@
              Title="{Binding Title}">
 
     <ContentPage.Resources>
-        <converters:ListCountBoolConverter x:Key="ListCountBoolConverter"/>
+        <ResourceDictionary>
+            <converters:ListCountBoolConverter x:Key="ListCountBoolConverter"/>
+        </ResourceDictionary>
     </ContentPage.Resources>
 
     <ContentPage.BindingContext>
@@ -17,95 +19,87 @@
 
     <ContentPage.Content>
 
+        <ScrollView>
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
-                <!--Song Image-->
-
-                <ffImage:CachedImage Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFit" RetryCount="3" RetryDelay="3" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"/>
-
+                <!--Song Banner-->
+                <ffImage:CachedImage BackgroundColor="Yellow" HeightRequest="250" BitmapOptimizations="True" Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"/>
 
                 <!--Song Artist-->
-
-                <Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />
-
+                <!--<Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />-->
 
                 <!--Singles list-->
-                <StackLayout>
+                <StackLayout IsVisible="{Binding SinglesList.Count, Converter={StaticResource ListCountBoolConverter}}">
                     <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" />
-
-                    <CollectionView ItemsSource="{Binding SinglesList}" >
-                        <CollectionView.ItemTemplate>
+                    <StackLayout BindableLayout.ItemsSource="{Binding SinglesList}" Spacing="2" Margin="5">
+                        <BindableLayout.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout>
-                                    <Label Text="{Binding Level}" FontSize="18"/>
-
-                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                    <Label Text="{Binding Level}" FontSize="20"/>
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
                                                 <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                    <CheckBox IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
                                                 </StackLayout>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
                                 </StackLayout>
                             </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
                 </StackLayout>
 
-                <StackLayout>
-                    <!--IsVisible="{Binding CoopsList, Converter={StaticResource ListCountBoolConverter}, ConverterParameter={Binding DoublesList.Count}}"-->
-                    <Label Text="Doubles" HorizontalTextAlignment="Center" FontSize="20"/>
-
-                    <CollectionView ItemsSource="{Binding DoublesList}">
-                        <CollectionView.ItemTemplate>
+                <!--Doubles List-->
+                <StackLayout IsVisible="{Binding DoublesList.Count, Converter={StaticResource ListCountBoolConverter}}">
+                    <Label Text="Doubles" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold"/>
+                    <StackLayout BindableLayout.ItemsSource="{Binding DoublesList}" Spacing="2" Margin="5" >
+                        <BindableLayout.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout>
-                                    <Label Text="{Binding Level}" FontSize="18"/>
-
+                                    <Label Text="{Binding Level}" FontSize="20"/>
                                     <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
                                                 <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                    <CheckBox BindingContext="{Binding Done}" IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5"/>
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
                                                 </StackLayout>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
                                 </StackLayout>
                             </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
                 </StackLayout>
 
-                <StackLayout>
-                    <Label Text="Co-Ops" HorizontalTextAlignment="Center" FontSize="20"/>
-
-                    <CollectionView ItemsSource="{Binding CoopsList}">
-                        <CollectionView.ItemTemplate>
+                <!--Co-Ops List-->
+                <StackLayout IsVisible="{Binding CoopsList.Count, Converter={StaticResource ListCountBoolConverter}}">
+                    <Label Text="Co-Ops" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold"/>
+                    <StackLayout BindableLayout.ItemsSource="{Binding CoopsList}" Spacing="2" Margin="5">
+                        <BindableLayout.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout>
-                                    <Label Text="{Binding Level}" FontSize="18"/>
-
-                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                    <Label Text="{Binding Level}" FontSize="20"/>
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
                                                 <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox IsChecked="{Binding Done}" Color="Blue" ScaleX="1.5" ScaleY="1.5" />
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="20"/>
+                                                    <CheckBox IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
                                                 </StackLayout>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
                                 </StackLayout>
                             </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
                 </StackLayout>
             </StackLayout>
-  
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

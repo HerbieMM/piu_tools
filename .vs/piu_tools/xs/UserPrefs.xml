@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/Views/UnlockableSongDetails.xaml">
     <Files>
-      <File FileName="piu_tools/Views/UnlockableSongDetails.xaml" Line="50" Column="55" />
-      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" />
+      <File FileName="piu_tools/Views/UnlockableSongDetails.xaml" Line="23" Column="38" />
+      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" Line="77" Column="55" />
       <File FileName="piu_tools/Converter/ListCountBoolConverter.cs" />
       <File FileName="piu_tools/unlock_songs.json" />
     </Files>
@@ -13,17 +13,14 @@
           <Node name="piu_tools" expanded="True">
             <Node name="piu_tools" expanded="True">
               <Node name="Converter" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="UnlockableSongDetails.xaml" expanded="True" selected="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
             <Node name="piu_tools.Android" expanded="True">
               <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
+                <Node name="drawable" expanded="True">
+                  <Node name="papasito.png" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

@@ -8,7 +8,7 @@ namespace piu_tools.Converter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (parameter is int listCount)
+            if (value is int listCount)
             {
                 return listCount > 0;
             }
