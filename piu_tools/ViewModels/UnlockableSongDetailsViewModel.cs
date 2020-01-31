@@ -65,6 +65,7 @@ namespace piu_tools.ViewModels
 
         public UnlockableSongDetailsViewModel()
         { }
+
         public UnlockableSongDetailsViewModel(MusicInfo selectedMusic)
         {
             Title = selectedMusic.SongTitle;

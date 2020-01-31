@@ -5,7 +5,6 @@ using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
 using piu_tools.Models;
-using Realms;
 
 namespace piu_tools.Services
 {
@@ -25,20 +24,6 @@ namespace piu_tools.Services
                 JsonSerializer serializer = new JsonSerializer();
                 charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);
             }
-
-            //Teste RealmDB
-            //var realmDB = Realm.GetInstance();
-            //var dbMusics = realmDB.All<UnlockableChartsList>().FirstOrDefault();
-
-            //if(dbMusics.Musics.ToList().Count > 0)
-            //{
-            //    return new ObservableCollection<MusicInfo>(dbMusics.Musics);
-            //}
-            //else
-            //{
-            //    realmDB.Add(charts);
-            //}
-
             return new ObservableCollection<MusicInfo>(charts.Musics);
         }
     }

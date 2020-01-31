@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Realms;
-
+﻿
 namespace piu_tools.Models
 {
     public class ChartUnlockRequirements
