@@ -1,10 +1,11 @@
-﻿using System;
+﻿
 using System.Collections.ObjectModel;
 using System.IO;
-using System.Linq;
+
 using System.Reflection;
 using Newtonsoft.Json;
 using piu_tools.Models;
+
 
 namespace piu_tools.Services
 {
@@ -23,6 +24,8 @@ namespace piu_tools.Services
 
                 JsonSerializer serializer = new JsonSerializer();
                 charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);
+               
+
             }
             return new ObservableCollection<MusicInfo>(charts.Musics);
         }

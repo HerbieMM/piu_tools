@@ -9,7 +9,7 @@ using piu_tools.Models;
 
 namespace piu_tools.Services
 {
-    public class AzureDataStore : IDataStore<Item>
+    public class AzureDataStore //: IDataStore<Item>
     {
         HttpClient client;
         IEnumerable<Item> items;

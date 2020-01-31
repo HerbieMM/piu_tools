@@ -6,7 +6,7 @@ using piu_tools.Models;
 
 namespace piu_tools.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore //: IDataStore<Item>
     {
         readonly List<Item> items;
 

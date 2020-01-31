@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
 using Xamarin.Forms;
-
 using piu_tools.Models;
 using piu_tools.Services;
 
@@ -12,7 +10,9 @@ namespace piu_tools.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public IDataStore<MusicInfo> MusicDataStore => DependencyService.Get<IDataStore<MusicInfo>>();
+        public IDataStore<Chart> ChartDataStore => DependencyService.Get<IDataStore<Chart>>();
+        public IDataStore<ChartUnlockRequirements> ChartUnlockRequirementsDataStore => DependencyService.Get<IDataStore<ChartUnlockRequirements>>();
 
         bool isBusy = false;
         public bool IsBusy

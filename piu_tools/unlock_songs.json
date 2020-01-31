@@ -75,11 +75,11 @@
       "Charts": [
         {
           "Done": "False",
-          "Level": "All charts",
+          "Level": "S-X",
           "Require": [
             {
               "Done": "False",
-              "Description": "Acquire SSS 86 times"
+              "Description": "All Charts: Acquire SSS 86 times"
             }
           ]
         }

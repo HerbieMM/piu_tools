@@ -15,6 +15,7 @@ namespace piu_tools.ViewModels
         private ObservableCollection<Chart> singlesList;
         private ObservableCollection<Chart> coopsList;
         private ObservableCollection<Chart> doublesList;
+
         public MusicInfo SelectedMusic
         {
             get { return selectedMusic; }
@@ -68,12 +69,15 @@ namespace piu_tools.ViewModels
 
         public UnlockableSongDetailsViewModel(MusicInfo selectedMusic)
         {
+
             Title = selectedMusic.SongTitle;
             SelectedMusic = selectedMusic;
+            
 
-            var singles = selectedMusic.Charts.Where(s => s.Level.Contains("S")).ToList();
-            var doubles = selectedMusic.Charts.Where(s => s.Level.Contains("D")).ToList();
-            var coops = selectedMusic.Charts.Where(s => s.Level.Contains("CO-OP")).ToList();
+
+            var singles = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("S"));
+            var doubles = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("D"));
+            var coops = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("CO-OP"));
 
             SinglesList = new ObservableCollection<Chart>(singles);
             DoublesList = new ObservableCollection<Chart>(doubles);

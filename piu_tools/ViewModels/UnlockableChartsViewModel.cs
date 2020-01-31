@@ -10,8 +10,8 @@ namespace piu_tools.ViewModels
 {
     public class UnlockableChartsViewModel : BaseViewModel
     {
-        #region [ Properties ]           
-        
+        #region [ Properties ]
+
         private ObservableCollection<MusicInfo> defaultMusicsList;
         public ObservableCollection<MusicInfo> DefaultMusicsList
         {
@@ -78,7 +78,7 @@ namespace piu_tools.ViewModels
         {
             Title = "Unlockable Charts";
 
-            Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Aguarde...");
+            Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Wait...");
 
             GetSongs();
 
@@ -88,6 +88,9 @@ namespace piu_tools.ViewModels
 
         private void GetSongs()
         {
+            //TODO recuperar músicas do BD
+            //var test = MusicDataStore.GetItemsAsync();
+
             var musics = JSONHandler.GetSongListFromJson();
 
             DefaultMusicsList = musics;
@@ -96,7 +99,6 @@ namespace piu_tools.ViewModels
 
         private async void GoToSongInfo(MusicInfo selectedMusic)
         {
-
             await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));            
         }
     }

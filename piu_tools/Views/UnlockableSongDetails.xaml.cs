@@ -8,10 +8,10 @@ namespace piu_tools.Views
 {
     public partial class UnlockableSongDetails : ContentPage
     {
-        public UnlockableSongDetails(MusicInfo selectedMusic)
+        public UnlockableSongDetails(MusicInfo music)
         {
             InitializeComponent();
-            BindingContext = new UnlockableSongDetailsViewModel(selectedMusic);
+            BindingContext = new UnlockableSongDetailsViewModel(music);
         }
 
         protected override void OnAppearing()

@@ -19,11 +19,12 @@ namespace piu_tools
 
         public App()
         {
-            InitializeComponent();
+            InitializeComponent();            
             
-            //TODO VER ISSO AQUI SEU IMBECIL
-            DependencyService.Register<IDataStore<MusicInfo>>();
-
+            DependencyService.Register<IDataStore<MusicInfo>, MusicDataStore>();
+            DependencyService.Register<IDataStore<Chart>, ChartDataStore>();
+            DependencyService.Register<IDataStore<ChartUnlockRequirements>, ChartUnlockRequirementsDataStore>();
+            
             //if (UseMockDataStore)
             //    DependencyService.Register<MockDataStore>();
             //else
