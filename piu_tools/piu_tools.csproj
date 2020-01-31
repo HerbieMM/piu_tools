@@ -12,6 +12,8 @@
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
     <PackageReference Include="Acr.UserDialogs" Version="7.0.35" />
     <PackageReference Include="Realm" Version="4.2.0" />
+    <PackageReference Include="Realm.DataBinding" Version="1.2.0" />
+    <PackageReference Include="Realm.Database" Version="3.4.0" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="unlock_songs.json" />

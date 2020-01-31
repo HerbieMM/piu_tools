@@ -1,27 +1,28 @@
 ﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/Views/UnlockableSongDetails.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/Services/JSONHandler.cs">
     <Files>
-      <File FileName="piu_tools/Views/UnlockableSongDetails.xaml" Line="23" Column="38" />
-      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" Line="77" Column="55" />
+      <File FileName="piu_tools/Views/UnlockableSongDetails.xaml" Line="70" Column="59" />
       <File FileName="piu_tools/Converter/ListCountBoolConverter.cs" />
-      <File FileName="piu_tools/unlock_songs.json" />
+      <File FileName="piu_tools/Models/MusicInfo.cs" />
+      <File FileName="piu_tools/Models/UnlockableChartsList.cs" />
+      <File FileName="piu_tools/ViewModels/UnlockableChartsViewModel.cs" />
+      <File FileName="piu_tools/Services/JSONHandler.cs" Line="40" Column="1" />
+      <File FileName="piu_tools/Models/Chart.cs" />
+      <File FileName="piu_tools/Models/ChartUnlockRequirements.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
           <Node name="piu_tools" expanded="True">
             <Node name="piu_tools" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Converter" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="JSONHandler.cs" selected="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="piu_tools.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True">
-                  <Node name="papasito.png" selected="True" />
-                </Node>
-              </Node>
             </Node>
           </Node>
         </State>
@@ -30,13 +31,15 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.piu__tools.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e37766e64b39dd6d1306cd1a2d6a830741df2595" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.piu__tools.MobileAppService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <DisabledProjects>
+    <String>piu_tools.MobileAppService/piu_tools.MobileAppService.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.d74c011" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableChartsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableChartsViewModel.cs" line="105" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Converter/ListCountBoolConverter.cs" relfile="piu_tools/Converter/ListCountBoolConverter.cs" line="12" column="1" />
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="22" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
@@ -44,7 +47,6 @@
       <Items>
         <StartupItem ItemId="{053DF95F-8852-4451-BD33-6726B0E2717D}" ItemName="piu_tools.Android" />
         <StartupItem ItemId="{4404C561-820A-48A8-8003-83127A5746A1}" ItemName="piu_tools.iOS" />
-        <StartupItem ItemId="{F1DCB369-26F3-4B83-B806-40621475593C}" ItemName="piu_tools.MobileAppService" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
