@@ -22,9 +22,7 @@ namespace piu_tools
             InitializeComponent();            
             
             DependencyService.Register<IDataStore<MusicInfo>, MusicDataStore>();
-            DependencyService.Register<IDataStore<Chart>, ChartDataStore>();
             DependencyService.Register<IDataStore<ChartUnlockRequirements>, ChartUnlockRequirementsDataStore>();
-            
             //if (UseMockDataStore)
             //    DependencyService.Register<MockDataStore>();
             //else

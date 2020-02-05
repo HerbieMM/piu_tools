@@ -11,9 +11,8 @@ namespace piu_tools.ViewModels
     public class BaseViewModel : INotifyPropertyChanged
     {
         public IDataStore<MusicInfo> MusicDataStore => DependencyService.Get<IDataStore<MusicInfo>>();
-        public IDataStore<Chart> ChartDataStore => DependencyService.Get<IDataStore<Chart>>();
         public IDataStore<ChartUnlockRequirements> ChartUnlockRequirementsDataStore => DependencyService.Get<IDataStore<ChartUnlockRequirements>>();
-
+        
         bool isBusy = false;
         public bool IsBusy
         {

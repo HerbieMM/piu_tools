@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using piu_tools.Models;
 
 namespace piu_tools.Services
 {
@@ -8,6 +9,7 @@ namespace piu_tools.Services
         bool UpdateItemAsync(T item);
         bool DeleteItemAsync(string id);
         T GetItemAsync(string id);
-        IEnumerable<T> GetItemsAsync(bool forceRefresh = false);
+        List<T> GetAllItemsAsync(bool forceRefresh = false);
+        List<Chart> GetChartsItem(string songId);
     }
 }

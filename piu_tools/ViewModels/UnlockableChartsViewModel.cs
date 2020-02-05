@@ -87,19 +87,17 @@ namespace piu_tools.ViewModels
         }
 
         private void GetSongs()
-        {
-            //TODO recuperar músicas do BD
-            //var test = MusicDataStore.GetItemsAsync();
-
-            var musics = JSONHandler.GetSongListFromJson();
-
-            DefaultMusicsList = musics;
-            MusicsList = musics;
+        {            
+            var musics = MusicDataStore.GetAllItemsAsync();
+            
+            DefaultMusicsList = new ObservableCollection<MusicInfo>(musics);
+            MusicsList = new ObservableCollection<MusicInfo>(musics);
         }
 
         private async void GoToSongInfo(MusicInfo selectedMusic)
         {
-            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));            
+            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));
+            selectedMusic = new MusicInfo();
         }
     }
 }

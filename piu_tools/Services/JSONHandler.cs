@@ -24,9 +24,8 @@ namespace piu_tools.Services
 
                 JsonSerializer serializer = new JsonSerializer();
                 charts = JsonConvert.DeserializeObject<UnlockableChartsList>(json);
-               
-
             }
+
             return new ObservableCollection<MusicInfo>(charts.Musics);
         }
     }

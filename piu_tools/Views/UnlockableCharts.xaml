@@ -11,8 +11,8 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
-            <SearchBar Placeholder="Search by Song Title" Margin="0,5" Text="{Binding SearchText, Mode=TwoWay}" HorizontalOptions="StartAndExpand" />
-            <CollectionView ItemsSource="{Binding MusicsList}" Visual="Material" SelectionMode="Single" SelectedItem="{Binding SelectedMusic, Mode=TwoWay}">
+            <SearchBar Placeholder="Search song by title" Margin="0,5" Text="{Binding SearchText, Mode=TwoWay}" HorizontalOptions="StartAndExpand" />
+            <CollectionView ItemsSource="{Binding MusicsList}" Visual="Material" SelectionMode="Single" SelectedItem="{Binding SelectedMusic, Mode=TwoWay}" >
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="0, 10">

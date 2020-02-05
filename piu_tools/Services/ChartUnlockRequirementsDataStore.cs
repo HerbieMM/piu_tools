@@ -16,11 +16,7 @@ namespace piu_tools.Services
 
         public ChartUnlockRequirementsDataStore()
         {
-            if (!File.Exists(ConnectionString))
-                File.Create(ConnectionString);
-
             SQLiteConnection = new SQLiteConnection(ConnectionString);
-            SQLiteConnection.CreateTable<ChartUnlockRequirements>();
         }
 
         public bool AddItemAsync(ChartUnlockRequirements item)
@@ -38,7 +34,7 @@ namespace piu_tools.Services
             return SQLiteConnection.Find<ChartUnlockRequirements>(id);
         }
 
-        public IEnumerable<ChartUnlockRequirements> GetItemsAsync(bool forceRefresh = false)
+        public List<ChartUnlockRequirements> GetAllItemsAsync(bool forceRefresh = false)
         {
             return SQLiteConnection.Table<ChartUnlockRequirements>().ToList();
         }
@@ -46,6 +42,11 @@ namespace piu_tools.Services
         public bool UpdateItemAsync(ChartUnlockRequirements item)
         {
             return SQLiteConnection.Update(item) > 0;
+        }
+
+        public List<Chart> GetChartsItem(string songId)
+        {
+            return SQLiteConnection.Table<Chart>().Where(t => t.ChartId == songId).ToList();
         }
     }
 }

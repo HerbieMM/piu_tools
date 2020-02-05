@@ -1,5 +1,5 @@
-{ //Song ID based on wikipedia: https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs
-  "Version": "1.4",
+{
+  "Version": "1.5",
   "Musics": [
     // -- Special characters --
     {
@@ -137,6 +137,74 @@
     },
     // -- A --
     {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1653.png",
+      "SongTitle": "Adios",
+      "SongId": "1653",
+      "SongArtist": "Everglow",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S13 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S15"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1673.png",
+      "SongTitle": "After a thousand years",
+      "SongId": "1673",
+      "SongArtist": "Toto",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S18 A"
+            },
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least SS on S14"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S18"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-allegro-con-fuoco-full.png",
       "SongTitle": "Allegro Con Fuoco (Full Song)",
       "SongId": "16C5",
@@ -203,7 +271,11 @@
           "Require": [
             {
               "Done": "False",
-              "Description": "At least S on S15 & D15"
+              "Description": "At least S on S15"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on D15"
             }
           ]
         }
@@ -337,7 +409,11 @@
           "Require": [
             {
               "Done": "False",
-              "Description": "At least S on S17 & D16"
+              "Description": "At least S on S17"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on D16"
             }
           ]
         },
@@ -386,6 +462,34 @@
             {
               "Done": "False",
               "Description": "At least A on The Little Prince D19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1657.png",
+      "SongTitle": "Bungee (Fall in Love)",
+      "SongId": "1657",
+      "SongArtist": "Oh My Girl",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S17",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S14"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D15"
             }
           ]
         }
@@ -1211,6 +1315,58 @@
         }
       ]
     },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1654.png",
+      "SongTitle": "Hit",
+      "SongId": "1654",
+      "SongArtist": "Seventeen",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S14 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S14"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S on S16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least A on D16"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D18"
+            }
+          ]
+        }
+      ]
+    },
     // -- I --
     {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-i-want-u.png",
@@ -1388,11 +1544,49 @@
     },
     // -- J --
     {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1607.png",
+      "SongTitle": "Janus",
+      "SongId": "1607",
+      "SongArtist": "Max",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At Least S on D19"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/C07-revive.png",
       "SongTitle": "Jump",
       "SongId": "C07",
       "SongArtist": "BanYa",
       "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on S13"
+            }
+          ]
+        },
         {
           "Done": "False",
           "Level": "D18",
@@ -1516,6 +1710,62 @@
             {
               "Done": "False",
               "Description": "At least D19 A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1617.png",
+      "SongTitle": "Lepton Strike",
+      "SongId": "1617",
+      "SongArtist": "Nato",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S10 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S19 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D11 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least D17 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D21 S"
             }
           ]
         }
@@ -1693,6 +1943,24 @@
             {
               "Done": "False",
               "Description": "Clear 40 mission zone quests"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/347.png",
+      "SongTitle": "My Dreams",
+      "SongId": "F25",
+      "SongArtist": "BanYa",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "D22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S on D18"
             }
           ]
         }
@@ -2119,6 +2387,48 @@
         }
       ]
     },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1656.png",
+      "SongTitle": "Rooftop",
+      "SongId": "1656",
+      "SongArtist": "N.Flying",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S16",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S13 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D18",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D15 S"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least D18 S"
+            }
+          ]
+        }
+      ]
+    },
     // -- S --
     {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-skeptic.png",
@@ -2386,6 +2696,70 @@
       ]
     },
     // -- U --
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1684.png",
+      "SongTitle": "Uranium",
+      "SongId": "1684",
+      "SongArtist": "Memme",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S16 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Tritium S17 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "S22",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least S19 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Tritium S21 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D20",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D17 A"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Tritium D19 A"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D24",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "At least D20 S"
+            },
+            {
+              "Done": "False",
+              "Description": "At least Tritium D21 A"
+            }
+          ]
+        }
+      ]
+    },
     // -- V --
     {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-vanish.png",
@@ -2532,6 +2906,42 @@
         }
       ]
     },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1634.png",
+      "SongTitle": "Wicked Legend",
+      "SongId": "1634",
+      "SongArtist": "D_AAN",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S19",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S on S10"
+            },
+            {
+              "Done": "False",
+              "Description": "S on S15"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S on D12"
+            },
+            {
+              "Done": "False",
+              "Description": "S on D18"
+            }
+          ]
+        }
+      ]
+    },
     // -- X --
     {
       "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/xx-xeroize.png",
@@ -2635,6 +3045,34 @@
             {
               "Done": "False",
               "Description": "Good Night D24 PASS (with at least A)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SongBanner": "https://pumpout2.anyhowstep.com:17593/img/card/1634.png",
+      "SongTitle": "Your Mind",
+      "SongId": "1693",
+      "SongArtist": "Roy Mikelate",
+      "Charts": [
+        {
+          "Done": "False",
+          "Level": "S21",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "S on S17"
+            }
+          ]
+        },
+        {
+          "Done": "False",
+          "Level": "D23",
+          "Require": [
+            {
+              "Done": "False",
+              "Description": "SS on D18"
             }
           ]
         }

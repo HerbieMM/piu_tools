@@ -14,9 +14,9 @@ namespace piu_tools.Views
             BindingContext = new UnlockableSongDetailsViewModel(music);
         }
 
-        protected override void OnAppearing()
+        void CheckBox_CheckedChanged(Object sender, CheckedChangedEventArgs e)
         {
-            
+            MessagingCenter.Send(this, "Checkbock value changed!");
         }
     }
 }

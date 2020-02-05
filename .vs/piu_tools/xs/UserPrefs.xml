@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/Models/MusicInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools.Android/SplashActivity.cs">
     <Files>
-      <File FileName="piu_tools/ViewModels/UnlockableChartsViewModel.cs" Line="102" Column="78" />
-      <File FileName="piu_tools/Services/MusicDataStore.cs" Line="22" Column="15" />
-      <File FileName="piu_tools/ViewModels/BaseViewModel.cs" Line="25" Column="28" />
-      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" Line="70" Column="51" />
-      <File FileName="piu_tools/Models/MusicInfo.cs" Line="13" Column="18" />
+      <File FileName="piu_tools.Android/Resources/values/styles.xml" Line="28" Column="51" />
+      <File FileName="piu_tools.Android/MainActivity.cs" Line="20" Column="55" />
+      <File FileName="piu_tools.Android/SplashActivity.cs" Line="17" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,15 +11,20 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="piu_tools" expanded="True">
             <Node name="piu_tools" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="MusicInfo.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="UnlockableSongDetails.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="piu_tools.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+              <Node name="SplashActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,18 +36,10 @@
   <DisabledProjects>
     <String>piu_tools.MobileAppService/piu_tools.MobileAppService.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.phone_m-dpi_5_1_oreo_8_1_api_27" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.0043066430" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" line="71" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" line="68" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/ChartDataStore.cs" relfile="piu_tools/Services/ChartDataStore.cs" line="17" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/ChartDataStore.cs" relfile="piu_tools/Services/ChartDataStore.cs" line="41" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableChartsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableChartsViewModel.cs" line="47" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/MusicDataStore.cs" relfile="piu_tools/Services/MusicDataStore.cs" line="16" column="1" />
-      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/ViewModels/UnlockableChartsViewModel.cs" relfile="piu_tools/ViewModels/UnlockableChartsViewModel.cs" line="92" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="multiprojId" Name="Multiple Projects">

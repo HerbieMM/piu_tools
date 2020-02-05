@@ -15,12 +15,8 @@ namespace piu_tools.Services
 
         public ChartDataStore()
         {
-            if (!File.Exists(ConnectionString))
-                File.Create(ConnectionString);
-
-            SQLiteConnection = new SQLiteConnection(ConnectionString);
-            SQLiteConnection.CreateTable<Chart>();
-        }
+            SQLiteConnection = new SQLiteConnection(ConnectionString);            
+        }        
 
         public bool AddItemAsync(Chart item)
         {
@@ -37,7 +33,7 @@ namespace piu_tools.Services
             return SQLiteConnection.Find<Chart>(id);
         }
 
-        public IEnumerable<Chart> GetItemsAsync(bool forceRefresh = false)
+        public List<Chart> GetAllItemsAsync(bool forceRefresh = false)
         {
             return SQLiteConnection.Table<Chart>().ToList();
         }
@@ -45,6 +41,11 @@ namespace piu_tools.Services
         public bool UpdateItemAsync(Chart item)
         {
             return SQLiteConnection.Update(item) > 0;
+        }
+
+        public List<Chart> GetChartsItem(string songId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using piu_tools.Models;
 using SQLite;
@@ -14,12 +16,26 @@ namespace piu_tools.Services
         public MusicDataStore()
         {
             if (!File.Exists(ConnectionString))
+            {
                 File.Create(ConnectionString);
+                SQLiteConnection = new SQLiteConnection(ConnectionString, SQLiteOpenFlags.ReadWrite);
 
-            SQLiteConnection = new SQLiteConnection(ConnectionString);
-            SQLiteConnection.CreateTable<MusicInfo>();
-            
-            //PopulateTable();            
+                try
+                {
+                    SQLiteConnection.CreateTables<MusicInfo, Chart, ChartUnlockRequirements>(CreateFlags.None);
+                    SQLiteConnection.Commit();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+
+                PopulateTables();
+            }
+            else
+            {
+                SQLiteConnection = new SQLiteConnection(ConnectionString, SQLiteOpenFlags.ReadWrite);
+            }
         }
 
         public bool AddItemAsync(MusicInfo item)
@@ -37,31 +53,83 @@ namespace piu_tools.Services
             return SQLiteConnection.Find<MusicInfo>(id);
         }
 
-        public IEnumerable<MusicInfo> GetItemsAsync(bool forceRefresh = false)
+        public List<MusicInfo> GetAllItemsAsync(bool forceRefresh = false)
         {
             return SQLiteConnection.Table<MusicInfo>().ToList();
         }
 
-        public bool UpdateItemAsync(MusicInfo item)
+        public bool UpdateItemAsync(MusicInfo music)
         {
-            return SQLiteConnection.Update(item) > 0;
+            bool success = SQLiteConnection.Update(music) > 0;
+
+            SQLiteConnection.UpdateAll(music.Charts);
+
+            foreach (var chart in music.Charts)
+            {
+                SQLiteConnection.UpdateAll(chart.Require);
+            }
+
+            SQLiteConnection.Commit();          
+
+            return success;
         }
 
-        private void PopulateTable()
+        public List<Chart> GetChartsItem(string songId)
         {
-            //TODO consertar o método
-            //var musics = GetItemsAsync();
+            var charts = SQLiteConnection.Table<Chart>().Where(c => c.SongId == songId).ToList();
 
-            //if (musics. == 0)
-            //{
-            //    var musics = JSONHandler.GetSongListFromJson();
-            //    foreach (var item in musics)
-            //    {
-            //        AddItemAsync(item);
-            //    }
-            //}
+            foreach (var chart in charts)
+            {
+                var requirements = SQLiteConnection.Table<ChartUnlockRequirements>().Where(r => r.ChartId == chart.ChartId).ToList();
+                chart.Require = new ObservableCollection<ChartUnlockRequirements>(requirements);
+            }
 
+            return charts;
         }
 
+        #region [ Populating tables for the first access ]
+
+        private void PopulateTables()
+        {
+            List<MusicInfo> musicsDb = GetAllItemsAsync();
+
+            if (musicsDb.Count == 0)
+            {
+                var musics = JSONHandler.GetSongListFromJson();
+
+                foreach (var item in musics)
+                {
+                    PopulateChartTable(item.Charts, item.SongId);
+
+                    AddItemAsync(item);
+                }
+            }
+        }
+
+        private void PopulateChartTable(ObservableCollection<Chart> charts, string songId)
+        {
+
+            foreach (var chart in charts)
+            {
+                chart.SongId = songId;
+                chart.ChartId = songId + chart.Level;
+                PopulateRequirementTable(chart.Require, chart.ChartId);
+            }
+
+            SQLiteConnection.InsertAll(charts);
+        }
+
+        private void PopulateRequirementTable(ObservableCollection<ChartUnlockRequirements> require, string chartId)
+        {
+            for (int i = 0; i < require.Count; i++)
+            {
+                require[i].ChartId = chartId;
+                require[i].RequirementId = chartId + i;
+            }
+
+            SQLiteConnection.InsertAll(require);
+        }
+
+        #endregion
     }
 }

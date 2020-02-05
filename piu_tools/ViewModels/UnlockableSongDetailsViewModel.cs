@@ -2,29 +2,17 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 using piu_tools.Models;
+using piu_tools.Views;
+using Xamarin.Forms;
 
 namespace piu_tools.ViewModels
 {
     public class UnlockableSongDetailsViewModel : BaseViewModel
     {
         #region [ Properties ]
-        
-        private MusicInfo selectedMusic;
+        private MusicInfo music;
+
         private string songBanner;
-
-        private ObservableCollection<Chart> singlesList;
-        private ObservableCollection<Chart> coopsList;
-        private ObservableCollection<Chart> doublesList;
-
-        public MusicInfo SelectedMusic
-        {
-            get { return selectedMusic; }
-            set
-            {
-                selectedMusic = value;
-                OnPropertyChanged();
-            }
-        }
         public string SongBanner
         {
             get { return songBanner; }
@@ -34,6 +22,8 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
+
+        private ObservableCollection<Chart> singlesList;
         public ObservableCollection<Chart> SinglesList
         {
             get { return singlesList; }
@@ -43,6 +33,8 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
+
+        private ObservableCollection<Chart> doublesList;
         public ObservableCollection<Chart> DoublesList
         {
             get { return doublesList; }
@@ -52,6 +44,8 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
+
+        private ObservableCollection<Chart> coopsList;
         public ObservableCollection<Chart> CoopsList
         {
             get { return coopsList; }
@@ -69,19 +63,33 @@ namespace piu_tools.ViewModels
 
         public UnlockableSongDetailsViewModel(MusicInfo selectedMusic)
         {
+            music = selectedMusic;
 
             Title = selectedMusic.SongTitle;
-            SelectedMusic = selectedMusic;
-            
+            SongBanner = selectedMusic.SongBanner;            
 
+            var allCharts = MusicDataStore.GetChartsItem(selectedMusic.SongId);
 
-            var singles = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("S"));
-            var doubles = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("D"));
-            var coops = selectedMusic.Charts.ToList().Where(s => s.Level.Contains("CO-OP"));
+            var singles = allCharts.Where(s => s.Level.Contains("S"));
+            var doubles = allCharts.Where(s => s.Level.Contains("D"));
+            var coops = allCharts.Where(s => s.Level.Contains("CO-OP"));
 
             SinglesList = new ObservableCollection<Chart>(singles);
             DoublesList = new ObservableCollection<Chart>(doubles);
             CoopsList = new ObservableCollection<Chart>(coops);
+
+            MessagingCenter.Subscribe<UnlockableSongDetails>(this, "Checkbock value changed!", (sender) =>
+            {
+                UpdateAllCharts();
+            });
+        }
+
+        private void UpdateAllCharts()
+        {
+            var charts = SinglesList.Concat(DoublesList).Concat(CoopsList);
+            music.Charts = new ObservableCollection<Chart>(charts);
+
+            MusicDataStore.UpdateItemAsync(music);
         }
     }
 }

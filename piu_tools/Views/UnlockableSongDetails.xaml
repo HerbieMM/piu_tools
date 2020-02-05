@@ -22,32 +22,39 @@
         <ScrollView>
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
                 <!--Song Banner-->
-                <ffImage:CachedImage BackgroundColor="Yellow" HeightRequest="250" BitmapOptimizations="True" Source="{Binding SelectedMusic.SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"/>
+                <ffImage:CachedImage HeightRequest="250" LoadingPlaceholder="Loading..." BitmapOptimizations="True" Source="{Binding SongBanner}" Aspect="AspectFill" RetryCount="3" RetryDelay="3" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"/>
 
                 <!--Song Artist-->
                 <!--<Label Text="{Binding SelectedMusic.SongArtist}" TextColor="Black" FontSize="20" />-->
 
                 <!--Singles list-->
-                <StackLayout VerticalOptions="StartAndExpand" IsVisible="{Binding SinglesList.Count, Converter={StaticResource ListCountBoolConverter}}">
-                    <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" />
-                    <StackLayout BindableLayout.ItemsSource="{Binding SinglesList}" Spacing="2" Margin="5">
-                        <BindableLayout.ItemTemplate>
-                            <DataTemplate>
-                                <StackLayout>
-                                    <Label Text="{Binding Level}" FontSize="20"/>
-                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
-                                        <BindableLayout.ItemTemplate>
-                                            <DataTemplate>
-                                                <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5" />
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
-                                                </StackLayout>
-                                            </DataTemplate>
-                                        </BindableLayout.ItemTemplate>
+                <StackLayout>
+
+                    <StackLayout VerticalOptions="StartAndExpand" IsVisible="{Binding SinglesList.Count, Converter={StaticResource ListCountBoolConverter}}">
+                        <Label Text="Singles" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" />
+                        <StackLayout BindableLayout.ItemsSource="{Binding SinglesList}" Spacing="2" Margin="5">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout>
+                                        <Label Text="{Binding Level}" FontSize="20"/>
+                                        <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
+                                            <BindableLayout.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="1.5*" />
+                                                            <ColumnDefinition Width="8.5*" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <CheckBox Grid.Row="0" Grid.Column="0" CheckedChanged="CheckBox_CheckedChanged" HorizontalOptions="Center" IsChecked="{Binding Done}" Color="Green" ScaleX="1.5" ScaleY="1.5" />
+                                                        <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand"  Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </BindableLayout.ItemTemplate>
+                                        </StackLayout>
                                     </StackLayout>
-                                </StackLayout>
-                            </DataTemplate>
-                        </BindableLayout.ItemTemplate>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
 
@@ -59,13 +66,17 @@
                             <DataTemplate>
                                 <StackLayout>
                                     <Label Text="{Binding Level}" FontSize="20"/>
-                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5">
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
-                                                <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox BindingContext="{Binding Done}" IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5"/>
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
-                                                </StackLayout>
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="1.5*" />
+                                                        <ColumnDefinition Width="8.5*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <CheckBox Grid.Row="0" Grid.Column="0" CheckedChanged="CheckBox_CheckedChanged" HorizontalOptions="Center" IsChecked="{Binding Done}" Color="Green" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand"  Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
+                                                </Grid>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
@@ -86,10 +97,14 @@
                                     <StackLayout BindableLayout.ItemsSource="{Binding Require}" Spacing="2" Margin="5" >
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
-                                                <StackLayout Orientation="Horizontal" >
-                                                    <CheckBox IsChecked="{Binding Done}" Color="DodgerBlue" ScaleX="1.5" ScaleY="1.5" />
-                                                    <Label Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
-                                                </StackLayout>
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="1.5*" />
+                                                        <ColumnDefinition Width="8.5*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <CheckBox Grid.Row="0" Grid.Column="0" CheckedChanged="CheckBox_CheckedChanged" HorizontalOptions="Center" IsChecked="{Binding Done}" Color="Green" ScaleX="1.5" ScaleY="1.5" />
+                                                    <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand"  Text="{Binding Description}" VerticalOptions="Center" FontSize="18"/>
+                                                </Grid>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
@@ -99,7 +114,6 @@
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
-
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
