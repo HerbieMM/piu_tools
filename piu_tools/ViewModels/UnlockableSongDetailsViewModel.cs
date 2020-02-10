@@ -63,6 +63,8 @@ namespace piu_tools.ViewModels
 
         public UnlockableSongDetailsViewModel(MusicInfo selectedMusic)
         {
+            Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Wait...");
+
             music = selectedMusic;
 
             Title = selectedMusic.SongTitle;
@@ -82,6 +84,9 @@ namespace piu_tools.ViewModels
             {
                 UpdateAllCharts();
             });
+
+            Acr.UserDialogs.UserDialogs.Instance.HideLoading();
+
         }
 
         private void UpdateAllCharts()
@@ -90,6 +95,8 @@ namespace piu_tools.ViewModels
             music.Charts = new ObservableCollection<Chart>(charts);
 
             MusicDataStore.UpdateItemAsync(music);
+
+            Acr.UserDialogs.UserDialogs.Instance.Toast("Success!");
         }
     }
 }

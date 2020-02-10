@@ -22,8 +22,8 @@ namespace piu_tools.ViewModels
                 OnPropertyChanged();
             }
         }
-        
-        private ObservableCollection<MusicInfo> musicsList { get; set; }
+
+        private ObservableCollection<MusicInfo> musicsList;
         public ObservableCollection<MusicInfo> MusicsList
         {
             get {
@@ -47,7 +47,7 @@ namespace piu_tools.ViewModels
             }
         }
 
-        private string searchText { get; set; }
+        private string searchText;
         public string SearchText
         {
             get
@@ -75,10 +75,10 @@ namespace piu_tools.ViewModels
         #endregion
         
         public UnlockableChartsViewModel()
-        {
-            Title = "Unlockable Charts";
-
+        {            
             Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Wait...");
+
+            Title = "Unlockable Charts";
 
             GetSongs();
 
@@ -96,8 +96,7 @@ namespace piu_tools.ViewModels
 
         private async void GoToSongInfo(MusicInfo selectedMusic)
         {
-            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));
-            selectedMusic = new MusicInfo();
+            await NavigationService.PushAsync(new UnlockableSongDetails(selectedMusic));           
         }
     }
 }
