@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Threading.Tasks;
 using piu_tools.Models;
 using SQLite;
 using static System.Environment;
@@ -15,6 +16,8 @@ namespace piu_tools.Services
 
         public MusicDataStore()
         {
+            var teste = Task.Run(async () => { await JSONHandler.GetJsonFromWeb(); });
+
             if (!File.Exists(ConnectionString))
             {
                 File.Create(ConnectionString);

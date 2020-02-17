@@ -86,7 +86,6 @@ namespace piu_tools.ViewModels
             });
 
             Acr.UserDialogs.UserDialogs.Instance.HideLoading();
-
         }
 
         private void UpdateAllCharts()

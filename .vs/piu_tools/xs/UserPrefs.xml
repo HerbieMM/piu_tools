@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{053DF95F-8852-4451-BD33-6726B0E2717D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="piu_tools/App.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="piu_tools/Views/UnlockableCharts.xaml" Line="22" Column="54" />
-      <File FileName="piu_tools/Views/UnlockableSongDetails.xaml" Line="87" Column="1" />
-      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" Line="97" Column="36" />
-      <File FileName="piu_tools/App.xaml" Line="26" Column="15" />
-      <File FileName="piu_tools/unlock_songs.json" Line="1" Column="1" />
+      <File FileName="piu_tools/ViewModels/UnlockableSongDetailsViewModel.cs" Line="85" Column="35" />
+      <File FileName="piu_tools/Services/JSONHandler.cs" Line="45" Column="1" />
+      <File FileName="piu_tools/ViewModels/UnlockableChartsViewModel.cs" Line="91" Column="51" />
+      <File FileName="piu_tools/Services/MusicDataStore.cs" Line="61" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,14 +12,23 @@
           <Node name="piu_tools" expanded="True">
             <Node name="piu_tools" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="MusicDataStore.cs" selected="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
-              <Node name="App.xaml" selected="True" />
             </Node>
-            <Node name="piu_tools.Android" expanded="True" />
+            <Node name="piu_tools.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="mipmap-hdpi" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -29,10 +37,15 @@
   <DisabledProjects>
     <String>piu_tools.MobileAppService/piu_tools.MobileAppService.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.phone_m-dpi_5_1_oreo_8_1_api_27" />
+  <MonoDevelop.Ide.ItemProperties.piu__tools.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.0042662615" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/MusicDataStore.cs" relfile="piu_tools/Services/MusicDataStore.cs" line="21" column="1" />
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="39" column="1" />
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/MusicDataStore.cs" relfile="piu_tools/Services/MusicDataStore.cs" line="19" column="1" />
+      <Breakpoint file="/Users/Herberth/Projects/Xamarin Projects/piu_tools/piu_tools/Services/JSONHandler.cs" relfile="piu_tools/Services/JSONHandler.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="multiprojId" Name="Multiple Projects">
